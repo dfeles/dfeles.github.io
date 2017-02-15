@@ -2225,59 +2225,58 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"children": []
 					},
 					{
-						"objectId": "602BFB3E-65A2-4E88-8A2A-C6C7A569BC43",
+						"objectId": "3193344C-B9DE-4BF2-9F71-D5F378600C7F",
 						"kind": "group",
-						"name": "Group_51",
-						"originalName": "Group 5",
+						"name": "bacsi",
+						"originalName": "bacsi",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 18,
-							"y": 466,
-							"width": 300,
-							"height": 638
+							"x": -359,
+							"y": -31,
+							"width": 1093,
+							"height": 729
 						},
-						"visible": false,
+						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Group_5-njayqkzc.png",
+							"path": "images/Layer-bacsi-mze5mzm0.png",
 							"frame": {
-								"x": 18,
-								"y": 466,
-								"width": 300,
-								"height": 638
+								"x": -359,
+								"y": -31,
+								"width": 1093,
+								"height": 729
 							}
 						},
-						"children": [
-							{
-								"objectId": "8F202BE8-2F02-421A-907C-F5F952BC3554",
-								"kind": "group",
-								"name": "Group_33",
-								"originalName": "Group 3",
-								"maskFrame": null,
-								"layerFrame": {
-									"x": 19,
-									"y": 513,
-									"width": 33,
-									"height": 420
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-Group_3-oeyymdjc.png",
-									"frame": {
-										"x": 19,
-										"y": 513,
-										"width": 33,
-										"height": 420
-									}
-								},
-								"children": []
+						"children": []
+					},
+					{
+						"objectId": "B3E136DA-95E9-4071-86C2-E1211136241E",
+						"kind": "group",
+						"name": "Group_22",
+						"originalName": "Group 2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -395,
+							"y": -27,
+							"width": 1021,
+							"height": 728
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_2-qjnfmtm2.png",
+							"frame": {
+								"x": -395,
+								"y": -27,
+								"width": 1021,
+								"height": 728
 							}
-						]
+						},
+						"children": []
 					}
 				]
 			}
@@ -2423,7 +2422,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "EB82AB8B-A494-42A1-A654-11E921FA2A76",
 						"kind": "group",
-						"name": "Group_34",
+						"name": "Group_33",
 						"originalName": "Group 3",
 						"maskFrame": null,
 						"layerFrame": {
@@ -2450,7 +2449,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "681565E2-1D2B-4923-AC33-BBA261CA29D6",
 						"kind": "group",
-						"name": "Group_22",
+						"name": "Group_23",
 						"originalName": "Group 2",
 						"maskFrame": null,
 						"layerFrame": {
@@ -2505,7 +2504,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "55B0B513-B9C3-4F3A-BC8D-3C9EA7859408",
 						"kind": "group",
-						"name": "Group_52",
+						"name": "Group_51",
 						"originalName": "Group 5",
 						"maskFrame": null,
 						"layerFrame": {

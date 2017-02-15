@@ -299,6 +299,7 @@ Utils.delay slow(4), ->
 
 #### Select program
 s.streetGym.opacity = 0
+s.bacsi.opacity = 0
 s.selectProgram.onClick ->
 	s.startProgram.parent = all
 	s.startProgram.x = 0
@@ -341,6 +342,7 @@ s.selectProgram.onClick ->
 	s.start.onClick ->
 		hide(s.startProgram)
 		hide(s.selectProgram)
+		show(s.bacsi,1)
 		show(s.streetGym, .3)
 		show(s.streetMessage, .8)
 		show(s.streetProgress, 1.5)
