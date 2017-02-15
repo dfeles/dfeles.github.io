@@ -342,7 +342,7 @@ s.selectProgram.onClick ->
 	s.start.onClick ->
 		hide(s.startProgram)
 		hide(s.selectProgram)
-		show(s.bacsi,1)
+		show(s.bacsi,.3)
 		show(s.streetGym, .3)
 		show(s.streetMessage, .8)
 		show(s.streetProgress, 1.5)

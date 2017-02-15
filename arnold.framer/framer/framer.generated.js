@@ -1017,9 +1017,9 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "timeline",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 64,
+							"x": 57,
 							"y": 1829,
-							"width": 336,
+							"width": 343,
 							"height": 592
 						},
 						"visible": true,
@@ -1029,9 +1029,9 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-timeline-quq3ntmx.png",
 							"frame": {
-								"x": 64,
+								"x": 57,
 								"y": 1829,
-								"width": 336,
+								"width": 343,
 								"height": 592
 							}
 						},
@@ -1089,7 +1089,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"originalName": "Group 3",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 64,
+									"x": 57,
 									"y": 1829,
 									"width": 30,
 									"height": 420
@@ -1101,7 +1101,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Group_3-reexodaz.png",
 									"frame": {
-										"x": 64,
+										"x": 57,
 										"y": 1829,
 										"width": 30,
 										"height": 420
@@ -1167,34 +1167,27 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					},
 					{
 						"objectId": "70F8E706-7610-4B54-A054-FD0070CC6CCD",
-						"kind": "text",
+						"kind": "group",
 						"name": "streetMessage",
 						"originalName": "streetMessage",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 120,
-							"y": 1432,
-							"width": 235,
-							"height": 14
+							"x": 105,
+							"y": 1412,
+							"width": 273,
+							"height": 53
 						},
 						"visible": true,
 						"metadata": {
-							"opacity": 1,
-							"string": "You started the program Street Gym",
-							"css": [
-								"/* You started the prog: */",
-								"font-family: SFUIText-Light;",
-								"font-size: 14px;",
-								"color: #FFFFFF;"
-							]
+							"opacity": 1
 						},
 						"image": {
 							"path": "images/Layer-streetMessage-nzbgoeu3.png",
 							"frame": {
-								"x": 120,
-								"y": 1432,
-								"width": 235,
-								"height": 14
+								"x": 105,
+								"y": 1412,
+								"width": 273,
+								"height": 53
 							}
 						},
 						"children": []
@@ -2685,7 +2678,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 			"x": 2015,
 			"y": -62,
 			"width": 375,
-			"height": 1389
+			"height": 1179
 		},
 		"visible": true,
 		"metadata": {},
@@ -2989,7 +2982,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"x": -10,
 					"y": -1,
 					"width": 396,
-					"height": 1401
+					"height": 1202
 				},
 				"visible": true,
 				"metadata": {
@@ -3001,7 +2994,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"x": -10,
 						"y": -1,
 						"width": 396,
-						"height": 1401
+						"height": 1202
 					}
 				},
 				"children": [
@@ -3114,10 +3107,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"originalName": "selectProgram",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 75,
-					"y": 119,
-					"width": 224,
-					"height": 193
+					"x": 63,
+					"y": 99,
+					"width": 263,
+					"height": 213
 				},
 				"visible": true,
 				"metadata": {
@@ -3126,10 +3119,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-selectProgram-rdy5nje5.png",
 					"frame": {
-						"x": 75,
-						"y": 119,
-						"width": 224,
-						"height": 193
+						"x": 63,
+						"y": 99,
+						"width": 263,
+						"height": 213
 					}
 				},
 				"children": []
