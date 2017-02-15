@@ -10,7 +10,7 @@ default_h = 1334
 ratio = screen_width / default_w
 
 Framer.Defaults.Layer.force2d = true
-Framer.Device.contentScale = ratio
+
 
 all = new Layer
 	width: default_w, height: default_h
