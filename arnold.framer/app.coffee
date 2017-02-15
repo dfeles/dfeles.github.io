@@ -1,25 +1,22 @@
 # Import file "logo" (sizes and positions are scaled 1:2)
 s = Framer.Importer.load("imported/logo@2x")
+screen_width = Framer.Device.screen.width
+screen_height = Framer.Device.screen.height
 
 default_w = 750
 default_h = 1334
 
-
-screen_width = Framer.Device.screen.width 
-screen_height = Framer.Device.screen.height
 ratio = screen_width / default_w
-Framer.Device.contentScale = ratio
+
 Framer.Defaults.Layer.force2d = true
 
 all = new Layer
-	width: default_w
-	height: default_h
+	width: default_w, height: default_h
+	backgroundColor: "white"
 	scale: ratio
 	originY: 0
 	y: 0
-	backgroundColor: "transparent"
-	
-all.centerX() 
+all.centerX()
 
 scroll = new ScrollComponent
 	size: Screen.size
@@ -34,7 +31,8 @@ scroll.contentInset =
 s.cover.parent = scroll
 
 _delay = 0
-
+s.assets.parent = all
+s.iPhone_7_Copy_22.parent = all
 addMessage = (message, delay = .3) ->
 	_delay += delay
 	Utils.delay _delay, ->
