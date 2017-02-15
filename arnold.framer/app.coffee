@@ -15,7 +15,7 @@ header = s.header
 sel = s.selector
 buttons = [[s.stats_but,s.stats_active, s.sel_stat], [s.message_but,s.mess_active, s.sel_mes], [s.gym_but,s.gym_but_active, s.sel_gym]]
 
-
+Framer.Extras.Hints.disable()
 
 ##usefull stuff
 
