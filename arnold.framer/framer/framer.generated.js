@@ -2205,7 +2205,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"x": 47,
 							"y": 334,
 							"width": 278,
-							"height": 100
+							"height": 67
 						},
 						"visible": true,
 						"metadata": {
@@ -2222,7 +2222,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"x": 47,
 									"y": 334,
 									"width": 278,
-									"height": 100
+									"height": 67
 								},
 								"visible": true,
 								"metadata": {
@@ -2234,7 +2234,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 										"x": 47,
 										"y": 334,
 										"width": 278,
-										"height": 100
+										"height": 67
 									}
 								},
 								"children": []
