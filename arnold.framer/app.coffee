@@ -292,9 +292,9 @@ s.signUp.parent = all
 s.signUp.onClick ->
 	hide(s.signUp)
 	addMessage(s.text1)
-	addMessage(s.text2,2.5)
-	addMessage(s.text3, 2)
-	Utils.delay slow(5), ->
+	addMessage(s.text2,1)
+	addMessage(s.text3, 1)
+	Utils.delay slow(3), ->
 		addSuggestions()
 		
 
