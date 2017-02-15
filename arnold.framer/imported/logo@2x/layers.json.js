@@ -58,7 +58,89 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"height": 4
 							}
 						},
-						"children": []
+						"children": [
+							{
+								"objectId": "0427758E-751B-477F-893C-4AD1AC4C43C3",
+								"kind": "group",
+								"name": "sel_mes",
+								"originalName": "sel_mes",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 679,
+									"y": 124,
+									"width": 65,
+									"height": 4
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-sel_mes-mdqynzc1.png",
+									"frame": {
+										"x": 679,
+										"y": 124,
+										"width": 65,
+										"height": 4
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "41BC9A49-7C1E-44D0-84DB-9F90895C96D5",
+								"kind": "group",
+								"name": "sel_gym",
+								"originalName": "sel_gym",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 679,
+									"y": 124,
+									"width": 65,
+									"height": 4
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-sel_gym-ndfcqzlb.png",
+									"frame": {
+										"x": 679,
+										"y": 124,
+										"width": 65,
+										"height": 4
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "D09CC310-EECE-45F8-A1B4-FE39A336BC4F",
+								"kind": "group",
+								"name": "sel_stat",
+								"originalName": "sel_stat",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 679,
+									"y": 124,
+									"width": 65,
+									"height": 4
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-sel_stat-rda5q0mz.png",
+									"frame": {
+										"x": 679,
+										"y": 124,
+										"width": 65,
+										"height": 4
+									}
+								},
+								"children": []
+							}
+						]
 					},
 					{
 						"objectId": "5826767D-A983-489C-9609-F7EDCD928B5B",
@@ -67,10 +149,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "message_but",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 697,
-							"y": 83,
-							"width": 29,
-							"height": 26
+							"x": 691,
+							"y": 74,
+							"width": 41,
+							"height": 43
 						},
 						"visible": true,
 						"metadata": {
@@ -79,10 +161,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-message_but-ntgynjc2.png",
 							"frame": {
-								"x": 697,
-								"y": 83,
-								"width": 29,
-								"height": 26
+								"x": 691,
+								"y": 74,
+								"width": 41,
+								"height": 43
 							}
 						},
 						"children": [
@@ -122,10 +204,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "gym_but",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 850,
-							"y": 87,
-							"width": 25,
-							"height": 17
+							"x": 842,
+							"y": 74,
+							"width": 41,
+							"height": 43
 						},
 						"visible": true,
 						"metadata": {
@@ -134,10 +216,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-gym_but-qkmymjuw.png",
 							"frame": {
-								"x": 850,
-								"y": 87,
-								"width": 25,
-								"height": 17
+								"x": 842,
+								"y": 74,
+								"width": 41,
+								"height": 43
 							}
 						},
 						"children": [
@@ -177,10 +259,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "stats_but",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 547,
-							"y": 86,
-							"width": 18,
-							"height": 20
+							"x": 536,
+							"y": 74,
+							"width": 40,
+							"height": 43
 						},
 						"visible": true,
 						"metadata": {
@@ -189,10 +271,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-stats_but-ruzcnkmy.png",
 							"frame": {
-								"x": 547,
-								"y": 86,
-								"width": 18,
-								"height": 20
+								"x": 536,
+								"y": 74,
+								"width": 40,
+								"height": 43
 							}
 						},
 						"children": [

@@ -1,3 +1,5 @@
+# Import file "logo" (sizes and positions are scaled 1:4)
+sketch1 = Framer.Importer.load("imported/logo@4x")
 # Import file "logo" (sizes and positions are scaled 1:2)
 s = Framer.Importer.load("imported/logo@2x")
 screen_width = Framer.Device.screen.width
@@ -10,11 +12,13 @@ default_h = 1334
 ratio = screen_width / default_w
 
 Framer.Defaults.Layer.force2d = true
-
+Framer.Device.contentScale = ratio
 
 all = new Layer
 	width: default_w, height: default_h
+	scale: ratio
 	backgroundColor: "#FFFFFF"
+all.center()
 
 scroll = new ScrollComponent
 	size: all.size
@@ -80,9 +84,9 @@ addMessage(s.ans7, 1.7)
 ##### HEADER part
 header = s.header
 sel = s.selector
-buttons = [[s.gym_but,s.gym_but_active], [s.stats_but,s.stats_active], [s.message_but,s.mess_active]]
+buttons = [[s.gym_but,s.gym_but_active, s.sel_gym], [s.stats_but,s.stats_active, s.sel_stat], [s.message_but,s.mess_active, s.sel_mes]]
 
-header.parent = all
+header.parent = pageScroller
 header.x = -8
 header.y = -8
 
@@ -91,7 +95,6 @@ buttons.forEach (d,y) ->
 		sel.animate
 			properties:
 				x:d[0].x - (sel.width - d[0].width)/2
-				hueRotate: 120
 		buttons.forEach (it,i) ->
 			if it != d
 				it[0].animate
@@ -101,6 +104,9 @@ buttons.forEach (d,y) ->
 				it[1].animate
 					properties:
 						opacity: 0
+				it[2].animate
+					properties:
+						opacity: 0
 		d[0].animate
 			properties:
 				opacity: 1
@@ -108,4 +114,8 @@ buttons.forEach (d,y) ->
 		d[1].animate
 			properties:
 				opacity: 1
+		d[2].animate
+			properties:
+				opacity: 1
 s.message_but.emit 'click'
+

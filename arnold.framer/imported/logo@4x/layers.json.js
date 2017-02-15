@@ -1,4 +1,5 @@
-[
+window.__imported__ = window.__imported__ || {};
+window.__imported__["logo@4x/layers.json.js"] = [
 	{
 		"objectId": "B9C8188D-3EB1-4E47-8265-9148EB55418F",
 		"kind": "artboard",
