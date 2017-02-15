@@ -2,6 +2,7 @@
 s = Framer.Importer.load("imported/logo@2x")
 screen_width = Framer.Device.screen.width
 screen_height = Framer.Device.screen.height
+s.assets.visible = false
 
 default_w = 750
 default_h = 1334
