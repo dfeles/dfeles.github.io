@@ -9,14 +9,11 @@ default_h = 1334
 ratio = screen_width / default_w
 
 Framer.Defaults.Layer.force2d = true
+Framer.Device.contentScale = ratio
 
 all = new Layer
 	width: default_w, height: default_h
 	backgroundColor: "#FFFFFF"
-	scale: ratio
-	originY: 0
-	y: 0
-all.centerX()
 
 scroll = new ScrollComponent
 	size: all.size
@@ -28,16 +25,26 @@ scroll.contentInset =
 	right: 0
 	bottom: Screen.size.height/2
 	left: 0
-s.cover.parent = scroll
+	
+
+
+# Create PageComponent
+pageScroller = new PageComponent
+	point: Align.center
+	width: all.width
+	height: all.height
+	scrollVertical: false
+	clip: false
+	parent: all
+	
+scroll.parent = pageScroller.content
 
 _delay = 0
-s.assets.parent = all
-s.iPhone_7_Copy_22.parent = all
 addMessage = (message, delay = .3) ->
 	_delay += delay
 	Utils.delay _delay, ->
 		if scroll.content.children[0] == undefined
-			message.y = s.cover.height
+			message.y = s.header.height
 		else
 			message.y = scroll.content.children.reverse()[0].maxY + 50
 		message.x += s.text.x
@@ -69,23 +76,35 @@ addMessage(s.text5, 1.7)
 addMessage(s.text6, 1.7)
 addMessage(s.ans7, 1.7)
 
-s.arno.onClick ->
-	_delay = 0
-	newAns = s.ans7.copy()
-	addMessage(newAns, 0)
+##### HEADER part
+header = s.header
+sel = s.selector
+buttons = [[s.gym_but,s.gym_but_active], [s.stats_but,s.stats_active], [s.message_but,s.mess_active]]
 
+header.parent = all
+header.x = -8
+header.y = -8
 
-# Variables
-pageCount = 8
-gutter = 60
-
-# Create PageComponent
-pageScroller = new PageComponent
-	point: Align.center
-	width: all.width
-	height: all.height
-	scrollVertical: false
-	clip: false
-	parent: all
-	
-scroll.parent = pageScroller.content
+buttons.forEach (d,y) ->
+	d[0].on 'click', ->
+		sel.animate
+			properties:
+				x:d[0].x - (sel.width - d[0].width)/2
+				hueRotate: 120
+		buttons.forEach (it,i) ->
+			if it != d
+				it[0].animate
+					properties:
+						opacity: .6
+						scale: .8
+				it[1].animate
+					properties:
+						opacity: 0
+		d[0].animate
+			properties:
+				opacity: 1
+				scale: 1
+		d[1].animate
+			properties:
+				opacity: 1
+s.message_but.emit 'click'

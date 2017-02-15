@@ -1,13 +1,13 @@
 {
   "orientation" : 0,
   "updateDelay" : 0.3,
-  "contentScale" : 0.6944444444444444,
+  "contentScale" : 1,
   "fullScreen" : false,
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
     "Filters" : false
   },
-  "deviceType" : "google-nexus-5x",
+  "deviceType" : "apple-iphone-7-black",
   "projectId" : "E37DCB9B-9B7C-47AB-A8EF-9DA86B266055",
   "deviceOrientation" : 0,
   "selectedHand" : "",
