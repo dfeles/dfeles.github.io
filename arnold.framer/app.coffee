@@ -15,6 +15,12 @@ header = s.header
 sel = s.selector
 buttons = [[s.stats_but,s.stats_active, s.sel_stat], [s.message_but,s.mess_active, s.sel_mes], [s.gym_but,s.gym_but_active, s.sel_gym]]
 
+slowdown = 1
+slow = (ms) ->
+	return ms * slowdown
+Framer.Defaults.Animation =
+	time: slow 0.3
+
 all = new Layer
 	width: default_w, height: default_h
 	scale: ratio
@@ -29,12 +35,16 @@ pageScroller = new PageComponent
 	clip:true
 	parent: all
 
-
 messenger = new ScrollComponent
 	size: all.size
 	scrollHorizontal: false
 	backgroundColor: 'white'
 
+bgLayer = new Layer
+	width: all.width
+	height: 10000
+	backgroundColor: 'white'
+	parent: messenger.content
 
 stats = new ScrollComponent
 	width: all.width
@@ -44,7 +54,7 @@ stats = new ScrollComponent
 messenger.contentInset =
 	top: 100
 	right: 0
-	bottom: screen_height / 4
+	bottom: 1000
 	left: 0	
 	
 stats.contentInset =
@@ -72,13 +82,28 @@ s.gym_but.onClick ->
 
 
 _delay = 0
+staty = s.staty
+staty.x = 10
+staty.y = 0
+staty.opacity = 0
+staty.parent = messenger.content
+
+
+coach = s.coach
+coach.maxX = screen_width - 10
+coach.y = 0
+coach.opacity = 0
+coach.parent = messenger.content
 addMessage = (message, delay = .3) ->
 	_delay += delay
-	Utils.delay _delay, ->
+	Utils.delay slow(_delay), ->
 		if messenger.content.children[0] == undefined
 			message.y = s.header.height
 		else
-			message.y = messenger.content.children.reverse()[0].maxY + 50
+			lastItem = messenger.content.children.reverse()[0]
+			message.y = lastItem.maxY + 6
+			if lastItem.name[0] != message.name[0]
+				message.y += 30
 		message.x += s.text.x
 		message.opacity = 0
 		if (message.name[0] == "t")
@@ -86,28 +111,34 @@ addMessage = (message, delay = .3) ->
 			message.animate
 				x:message.x+30
 				opacity:1
-		else
+			staty.animate
+				y:message.maxY-45*2
+				opacity: 1
+		else if (message.name[0] == "c")
 			message.x = message.x+30
 			message.animate
 				x:message.x-30
 				opacity:1
-			
+			coach.animate
+				y:message.maxY-45*2
+				opacity: 1
+		else
+			message.centerX
+			message.y += 150
+			message.animate
+				y:message.y-150
+				opacity:1
+		
 		messenger.content.addChild(message)
-		if(message.y > messenger.size.height / 2)
-			messenger.content.animate
-				y: -message.y + messenger.size.height / 2
+		Utils.delay slow(.3), ->
+			if(message.y > messenger.size.height / 2)
+				messenger.content.animate
+					y: -message.y + messenger.size.height / 2
 		
 	if messenger.content.height <= messenger.height
 	else
 	
-addMessage(s.text1)
-addMessage(s.text2,.6)
-addMessage(s.text3, .6)
-addMessage(s.ans4, 1.7)
-addMessage(s.text5, 1.7)
-addMessage(s.text6, 1.7)
-addMessage(s.ans7, 1.7)
-
+	
 ##### HEADER part
 
 header.parent = pageScroller
@@ -122,46 +153,109 @@ animateHeader = (d) ->
 	sel.animate
 		properties:
 			x:d[0].x - (sel.width - d[0].width) / 2
-			options:
-				time: .3
 	buttons.forEach (it,i) ->
 		if it != d
 			it[0].animate
 				properties:
 					opacity: .6
 					scale: .8
-					options:
-						time: .3
 			it[1].animate
 				properties:
 					opacity: 0
-					options:
-						time: .3
 			it[2].animate
 				properties:
 					opacity: 0
-					options:
-						time: .3
 	d[0].animate
 		properties:
 			opacity: 1
 			scale: 1
-			options:
-				time: .3
 	d[1].animate
 		properties:
 			opacity: 1
-			options:
-				time: .3
 	d[2].animate
 		properties:
 			opacity: 1
-			options:
-				time: .3
 
 buttons.forEach (d,y) ->
 	d[0].on 'click', ->
 		animateHeader(d)
 		
 s.message_but.emit 'click'
+
+s.footer.parent = messenger
+s.footer.x = 0
+s.footer.y = screen_height-s.footer.height
+
+s.suggestions.opacity = 0
+messenger.content.height = 10000
+addHowOften = () ->
+	s.sug_often.parent = s.footer
+	s.sug_often.opacity = 0
+	s.sug_often.y = 0
+	s.sug_often.x = -135
+	s.sug_often.animate
+		opacity: 1
+	s.sug_often.onClick ->
+		s.sug_often.destroy()
+		_delay = 0
+		addMessage(s.ans7,0)
+		addMessage(s.text8,1)
+		addMessage(s.coach1,2)
+		addMessage(s.coach2,2)
+		addMessage(s.coach3,1)
+		addMessage(s.coach4,1)
+		s.coach4.onClick ->
+			s.gym_but.emit 'click'
+			pageScroller.snapToPage(s.goal)
+			
+
+addGymLocation = () ->
+	_delay = 0
+	addMessage(s.ans4,0)
+	addMessage(s.text5, 1)
+	addMessage(s.text6, 2)
+	Utils.delay slow(3), ->
+		addHowOften()
+
+addSuggestions = () ->
+	sug = s.suggestions
+	sug.parent = s.footer
+	sug.y = 0
+	sug.maxX = screen_width/2+180
+	sug.animate
+		opacity: 1
+		
+	sug.onClick ->
+		s.suggestions.destroy()
+		s.map_okay.opacity = 0
+		s.mapScreen.x = 0
+		s.mapScreen.y = 0
+		s.mapScreen.opacity = 0
+		s.mapScreen.index = 100
+		s.mapScreen.animate
+			opacity: 1
+		s.map_autoCorrect.onClick ->
+			s.map_okay.animate
+				opacity: 1
+			s.map_autoCorrect.visible = false
+			s.map_okay.onClick ->
+				s.mapScreen.animate
+					opacity: 0
+				s.mapScreen.on Events.AnimationEnd, (animation, layer) ->
+					s.mapScreen.visible = false
+					addGymLocation()
+
+
+#### Onboarding
+
+s.avatar.onClick ->
+
+	
+addMessage(s.text1)
+addMessage(s.text2,1)
+addMessage(s.text3, 2)
+Utils.delay slow(4), ->
+	addSuggestions()
+
+
 

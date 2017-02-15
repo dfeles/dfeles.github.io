@@ -985,6 +985,206 @@ window.__imported__["logo@2x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
+				"objectId": "B1D78E92-6D82-4ADF-AE6D-A2E18717EEBF",
+				"kind": "group",
+				"name": "coach",
+				"originalName": "coach",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 335,
+					"y": 605,
+					"width": 41,
+					"height": 62
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-coach-qjfenzhf.png",
+					"frame": {
+						"x": 335,
+						"y": 605,
+						"width": 41,
+						"height": 62
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "E7E13116-10E8-4116-ACDA-A4DB017FEA75",
+				"kind": "group",
+				"name": "staty",
+				"originalName": "staty",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 5,
+					"y": 185,
+					"width": 37,
+					"height": 67
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-staty-rtdfmtmx.png",
+					"frame": {
+						"x": 5,
+						"y": 185,
+						"width": 37,
+						"height": 67
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "0A94D9DE-D51B-438C-8DE0-35021117B00D",
+				"kind": "group",
+				"name": "sug_often",
+				"originalName": "sug_often",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 455,
+					"y": 517,
+					"width": 478,
+					"height": 61
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "645F7F66-59DA-41FF-A9E5-044885DB4226",
+						"kind": "group",
+						"name": "sug2",
+						"originalName": "sug2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 455,
+							"y": 517,
+							"width": 478,
+							"height": 53
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 0.5
+						},
+						"image": {
+							"path": "images/Layer-sug2-njq1rjdg.png",
+							"frame": {
+								"x": 455,
+								"y": 517,
+								"width": 478,
+								"height": 53
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "20B8FBC3-C89E-410A-8C4F-702FB275938B",
+						"kind": "group",
+						"name": "sug1",
+						"originalName": "sug1",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 640,
+							"y": 517,
+							"width": 140,
+							"height": 61
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-sug1-mjbcoezc.png",
+							"frame": {
+								"x": 640,
+								"y": 517,
+								"width": 140,
+								"height": 61
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "8EBA4FFE-6815-49BE-9967-4DD8D1995EC7",
+				"kind": "group",
+				"name": "suggestions",
+				"originalName": "suggestions",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 412,
+					"y": 273,
+					"width": 394,
+					"height": 61
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "A33BB49B-1D9F-4976-B3D5-71352D9DEA46",
+						"kind": "group",
+						"name": "sug21",
+						"originalName": "sug2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 412,
+							"y": 273,
+							"width": 192,
+							"height": 53
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 0.5
+						},
+						"image": {
+							"path": "images/Layer-sug2-qtmzqki0.png",
+							"frame": {
+								"x": 412,
+								"y": 273,
+								"width": 192,
+								"height": 53
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "D4E65BBC-6B68-40AB-89A6-C84FB77759D6",
+						"kind": "group",
+						"name": "sug11",
+						"originalName": "sug1",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 614,
+							"y": 273,
+							"width": 192,
+							"height": 61
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-sug1-rdrfnjvc.png",
+							"frame": {
+								"x": 614,
+								"y": 273,
+								"width": 192,
+								"height": 61
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
 				"objectId": "4972533F-D967-448E-A0F7-CC9829419BA0",
 				"kind": "group",
 				"name": "footer",
@@ -1013,8 +1213,8 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "D46EDB29-A450-4392-B4A8-D1E88CD65CC2",
 						"kind": "group",
-						"name": "Group",
-						"originalName": "Group",
+						"name": "avatar",
+						"originalName": "avatar",
 						"maskFrame": {
 							"x": 0,
 							"y": 0,
@@ -1022,22 +1222,22 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"height": 72
 						},
 						"layerFrame": {
-							"x": 675,
-							"y": 345,
-							"width": 74,
-							"height": 74
+							"x": 676,
+							"y": 346,
+							"width": 72,
+							"height": 72
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Group-rdq2rurc.png",
+							"path": "images/Layer-avatar-rdq2rurc.png",
 							"frame": {
-								"x": 675,
-								"y": 345,
-								"width": 74,
-								"height": 74
+								"x": 676,
+								"y": 346,
+								"width": 72,
+								"height": 72
 							}
 						},
 						"children": []
@@ -1371,123 +1571,120 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"originalName": "text",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 37,
-					"y": 67,
-					"width": 301,
-					"height": 1007
+					"x": 47,
+					"y": 56,
+					"width": 278,
+					"height": 1161
 				},
 				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
-				"image": {
-					"path": "images/Layer-text-ntvdneq5.png",
-					"frame": {
-						"x": 37,
-						"y": 67,
-						"width": 301,
-						"height": 1007
-					}
-				},
 				"children": [
 					{
-						"objectId": "82CBB2CE-164A-4439-BE33-3D5A4BC98D68",
-						"kind": "text",
+						"objectId": "E9D2DB2F-BA78-4A4E-B629-EAA75D9D4696",
+						"kind": "group",
 						"name": "text1",
 						"originalName": "text1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 38,
-							"y": 67,
-							"width": 138,
-							"height": 20
+							"x": 47,
+							"y": 56,
+							"width": 126,
+							"height": 40
 						},
 						"visible": true,
 						"metadata": {
-							"opacity": 1,
-							"string": "Hi Ardnold!",
-							"css": [
-								"/* Hi Ardnold!: */",
-								"font-family: SFUIText-Heavy;",
-								"font-size: 24px;",
-								"color: #3B3B3B;"
-							]
+							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-text1-odjdqkiy.png",
+							"path": "images/Layer-text1-rtlemkrc.png",
 							"frame": {
-								"x": 38,
-								"y": 67,
-								"width": 138,
-								"height": 20
+								"x": 47,
+								"y": 56,
+								"width": 126,
+								"height": 40
 							}
 						},
 						"children": []
 					},
 					{
-						"objectId": "E93F97F1-ABD0-450F-8763-8E2ED879C9E0",
-						"kind": "text",
+						"objectId": "048EF660-DA88-4CAE-A5EB-FBF90525DBA1",
+						"kind": "group",
 						"name": "text2",
 						"originalName": "text2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 37,
-							"y": 123,
-							"width": 274,
-							"height": 39
+							"x": 47,
+							"y": 98,
+							"width": 278,
+							"height": 84
 						},
 						"visible": true,
 						"metadata": {
-							"opacity": 1,
-							"string": "This is your Gym Assistant. Let’s start with the simple things.",
-							"css": [
-								"/* This is your Gym Ass: */",
-								"font-family: SFUIText-Regular;",
-								"font-size: 18px;",
-								"color: #3B3B3B;"
-							]
+							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-text2-rtkzrjk3.png",
+							"path": "images/Layer-text2-mdq4ruy2.png",
 							"frame": {
-								"x": 37,
-								"y": 123,
-								"width": 274,
-								"height": 39
+								"x": 47,
+								"y": 98,
+								"width": 278,
+								"height": 84
 							}
 						},
 						"children": []
 					},
 					{
-						"objectId": "A2A3C576-41A0-4914-AF41-C70DA1A9719B",
-						"kind": "text",
+						"objectId": "27C08196-B0ED-4FD3-9762-46D1675338F8",
+						"kind": "group",
+						"name": "text6",
+						"originalName": "text6",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 47,
+							"y": 438,
+							"width": 237,
+							"height": 40
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-text6-mjddmdgx.png",
+							"frame": {
+								"x": 47,
+								"y": 438,
+								"width": 237,
+								"height": 40
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "3C66FEF7-8B54-4EE4-9239-5C5B05CBCED0",
+						"kind": "group",
 						"name": "text3",
 						"originalName": "text3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 38,
-							"y": 199,
-							"width": 246,
-							"height": 24
+							"x": 47,
+							"y": 184,
+							"width": 206,
+							"height": 40
 						},
 						"visible": true,
 						"metadata": {
-							"opacity": 1,
-							"string": "Where is Your Gym?",
-							"css": [
-								"/* Where is Your Gym?: */",
-								"font-family: SFUIText-Heavy;",
-								"font-size: 24px;",
-								"color: #3B3B3B;"
-							]
+							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-text3-qtjbm0m1.png",
+							"path": "images/Layer-text3-m0m2nkzf.png",
 							"frame": {
-								"x": 38,
-								"y": 199,
-								"width": 246,
-								"height": 24
+								"x": 47,
+								"y": 184,
+								"width": 206,
+								"height": 40
 							}
 						},
 						"children": []
@@ -1499,7 +1696,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "ans4",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 146,
+							"x": 89,
 							"y": 256,
 							"width": 192,
 							"height": 53
@@ -1516,7 +1713,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"originalName": "Group 3",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 146,
+									"x": 89,
 									"y": 256,
 									"width": 192,
 									"height": 53
@@ -1528,7 +1725,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-Group_3-qzm0mdhg.png",
 									"frame": {
-										"x": 146,
+										"x": 89,
 										"y": 256,
 										"width": 192,
 										"height": 53
@@ -1540,71 +1737,49 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					},
 					{
 						"objectId": "08698FEE-ED0C-47DD-B226-7E20ABF6978B",
-						"kind": "text",
+						"kind": "group",
 						"name": "text5",
 						"originalName": "text5",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 37,
-							"y": 337,
-							"width": 272,
-							"height": 60
+							"x": 47,
+							"y": 334,
+							"width": 278,
+							"height": 100
 						},
 						"visible": true,
 						"metadata": {
-							"opacity": 1,
-							"string": "GetFit River Gym it is. \nYou can later change this or add an other gym at your profile.",
-							"css": [
-								"/* GetFit River Gym it: */",
-								"font-family: SFUIText-Regular;",
-								"font-size: 18px;",
-								"color: #3B3B3B;"
-							]
+							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-text5-mdg2othg.png",
-							"frame": {
-								"x": 37,
-								"y": 337,
-								"width": 272,
-								"height": 60
+						"children": [
+							{
+								"objectId": "AFE59766-D87F-4A6D-B7C5-7CA91064B1CE",
+								"kind": "group",
+								"name": "text11",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 47,
+									"y": 334,
+									"width": 278,
+									"height": 100
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-quzfntk3.png",
+									"frame": {
+										"x": 47,
+										"y": 334,
+										"width": 278,
+										"height": 100
+									}
+								},
+								"children": []
 							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "28A1F089-E45B-4601-8C33-AF667A5FA24A",
-						"kind": "text",
-						"name": "text6",
-						"originalName": "text6",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 37,
-							"y": 421,
-							"width": 253,
-							"height": 50
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "How often do you go\nto 💪?",
-							"css": [
-								"/* How often do you go: */",
-								"font-family: SFUIText-Heavy;",
-								"font-size: 24px;",
-								"color: #3B3B3B;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-text6-mjhbmuyw.png",
-							"frame": {
-								"x": 37,
-								"y": 421,
-								"width": 253,
-								"height": 50
-							}
-						},
-						"children": []
+						]
 					},
 					{
 						"objectId": "05C5924B-BF12-4009-8FC3-467ACFEF1220",
@@ -1613,8 +1788,8 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "done",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 126,
-							"y": 976,
+							"x": 136,
+							"y": 1119,
 							"width": 98,
 							"height": 98
 						},
@@ -1625,8 +1800,8 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-done-mdvdntky.png",
 							"frame": {
-								"x": 126,
-								"y": 976,
+								"x": 136,
+								"y": 1119,
 								"width": 98,
 								"height": 98
 							}
@@ -1640,8 +1815,8 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "ans7",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 186,
-							"y": 502,
+							"x": 109,
+							"y": 497,
 							"width": 152,
 							"height": 53
 						},
@@ -1652,8 +1827,8 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-ans7-rei4rtyw.png",
 							"frame": {
-								"x": 186,
-								"y": 502,
+								"x": 109,
+								"y": 497,
 								"width": 152,
 								"height": 53
 							}
@@ -1661,31 +1836,234 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"children": []
 					},
 					{
-						"objectId": "E8936AFF-0B66-4E3D-B4FF-AB893484D1AD",
+						"objectId": "ABE997EE-4D32-41BE-8E46-48262DAD9DDF",
 						"kind": "group",
-						"name": "Group_2_Copy",
-						"originalName": "Group 2 Copy",
+						"name": "text8",
+						"originalName": "text8",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 209,
-							"y": 800,
-							"width": 128,
-							"height": 53
+							"x": 47,
+							"y": 569,
+							"width": 278,
+							"height": 100
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-Group_2_Copy-rtg5mzzb.png",
-							"frame": {
-								"x": 209,
-								"y": 800,
-								"width": 128,
-								"height": 53
+						"children": [
+							{
+								"objectId": "945D3D8C-C7EE-4D32-87FB-B6E757D7DDBE",
+								"kind": "group",
+								"name": "text12",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 47,
+									"y": 569,
+									"width": 278,
+									"height": 100
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-otq1rdne.png",
+									"frame": {
+										"x": 47,
+										"y": 569,
+										"width": 278,
+										"height": 100
+									}
+								},
+								"children": []
 							}
+						]
+					},
+					{
+						"objectId": "46DB4835-78B4-449E-888B-CD2088B8C0DF",
+						"kind": "group",
+						"name": "coach1",
+						"originalName": "coach1",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 92,
+							"y": 688,
+							"width": 233,
+							"height": 41
 						},
-						"children": []
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "4344F12E-E2EE-47BC-AC90-CDA6AD16A7F4",
+								"kind": "group",
+								"name": "text13",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 92,
+									"y": 688,
+									"width": 233,
+									"height": 41
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-ndm0neyx.png",
+									"frame": {
+										"x": 92,
+										"y": 688,
+										"width": 233,
+										"height": 41
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "2FEDAE0A-47DD-485E-8A6E-C8ECBC17CD4A",
+						"kind": "group",
+						"name": "coach4",
+						"originalName": "coach4",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 61,
+							"y": 873,
+							"width": 264,
+							"height": 68
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "5D77CD34-30F3-4BBB-8B2A-F938F930417C",
+								"kind": "group",
+								"name": "text14",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 61,
+									"y": 873,
+									"width": 264,
+									"height": 68
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-nuq3n0ne.png",
+									"frame": {
+										"x": 61,
+										"y": 873,
+										"width": 264,
+										"height": 68
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "39DB96DE-08EA-4CEA-A65F-A062C56CC7F3",
+						"kind": "group",
+						"name": "coach3",
+						"originalName": "coach3",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 61,
+							"y": 801,
+							"width": 264,
+							"height": 68
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "8CA18752-1A69-42F3-8646-47E751E75A23",
+								"kind": "group",
+								"name": "text15",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 61,
+									"y": 801,
+									"width": 264,
+									"height": 68
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-oenbmtg3.png",
+									"frame": {
+										"x": 61,
+										"y": 801,
+										"width": 264,
+										"height": 68
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "A97CD0E8-419F-4C68-8F81-4BA97E05F908",
+						"kind": "group",
+						"name": "coach2",
+						"originalName": "coach2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 114,
+							"y": 734,
+							"width": 211,
+							"height": 61
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "F6A73927-0652-4119-B32F-28E9C55E6F57",
+								"kind": "group",
+								"name": "text16",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 114,
+									"y": 734,
+									"width": 211,
+									"height": 61
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-rjzbnzm5.png",
+									"frame": {
+										"x": 114,
+										"y": 734,
+										"width": 211,
+										"height": 61
+									}
+								},
+								"children": []
+							}
+						]
 					}
 				]
 			}
@@ -1727,7 +2105,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "DCDB9B34-99F4-49AE-852F-10E9B1076C88",
 						"kind": "group",
-						"name": "Group1",
+						"name": "Group",
 						"originalName": "Group",
 						"maskFrame": {
 							"x": 0,
@@ -1785,7 +2163,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							{
 								"objectId": "5E6F9EAC-E245-4D40-BE2A-625694D28BA2",
 								"kind": "group",
-								"name": "Group_2_Copy1",
+								"name": "Group_2_Copy",
 								"originalName": "Group 2 Copy",
 								"maskFrame": null,
 								"layerFrame": {
@@ -1878,7 +2256,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "DF6C1C51-3289-4E8D-971F-E433D8352917",
 						"kind": "group",
-						"name": "Group2",
+						"name": "Group1",
 						"originalName": "Group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -2013,7 +2391,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 87,
-					"y": 236,
+					"y": 256,
 					"width": 202,
 					"height": 56
 				},
@@ -2025,7 +2403,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-selectProgram-rdy5nje5.png",
 					"frame": {
 						"x": 87,
-						"y": 236,
+						"y": 256,
 						"width": 202,
 						"height": 56
 					}
@@ -2035,7 +2413,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 			{
 				"objectId": "23FE56D8-5446-490E-9DA6-A95FBC1D85CE",
 				"kind": "group",
-				"name": "Group3",
+				"name": "Group2",
 				"originalName": "Group",
 				"maskFrame": {
 					"x": 0,
@@ -2045,7 +2423,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				},
 				"layerFrame": {
 					"x": 0,
-					"y": 0,
+					"y": 20,
 					"width": 375,
 					"height": 667
 				},
@@ -2057,7 +2435,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group-mjngrtu2.png",
 					"frame": {
 						"x": 0,
-						"y": 0,
+						"y": 20,
 						"width": 375,
 						"height": 667
 					}
@@ -2071,7 +2449,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 3,
-							"y": 70,
+							"y": 90,
 							"width": 64,
 							"height": 71
 						},
@@ -2083,7 +2461,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_10-nui5mjay.png",
 							"frame": {
 								"x": 3,
-								"y": 70,
+								"y": 90,
 								"width": 64,
 								"height": 71
 							}
@@ -2098,7 +2476,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 18,
-							"y": 446,
+							"y": 466,
 							"width": 300,
 							"height": 638
 						},
@@ -2110,7 +2488,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_5-njayqkzc.png",
 							"frame": {
 								"x": 18,
-								"y": 446,
+								"y": 466,
 								"width": 300,
 								"height": 638
 							}
@@ -2124,7 +2502,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 19,
-									"y": 493,
+									"y": 513,
 									"width": 33,
 									"height": 420
 								},
@@ -2136,7 +2514,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"path": "images/Layer-Group_3-oeyymdjc.png",
 									"frame": {
 										"x": 19,
-										"y": 493,
+										"y": 513,
 										"width": 33,
 										"height": 420
 									}
@@ -2144,6 +2522,256 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"children": []
 							}
 						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"objectId": "88B04F11-A940-44BB-8655-70AF989E9EEE",
+		"kind": "artboard",
+		"name": "mapScreen",
+		"originalName": "mapScreen",
+		"maskFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 375,
+			"height": 667
+		},
+		"layerFrame": {
+			"x": 2965,
+			"y": -62,
+			"width": 375,
+			"height": 667
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(51.905293367346935, 51.905293367346935, 51.905293367346935, 1)",
+		"image": {
+			"path": "images/Layer-mapScreen-odhcmdrg.png",
+			"frame": {
+				"x": 2965,
+				"y": -62,
+				"width": 375,
+				"height": 667
+			}
+		},
+		"children": [
+			{
+				"objectId": "A16DE6CD-8F19-402D-BA51-DBC23DEDE002",
+				"kind": "group",
+				"name": "map_autoCorrect",
+				"originalName": "map_autoCorrect",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 150,
+					"width": 375,
+					"height": 301
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-map_autoCorrect-qte2reu2.png",
+					"frame": {
+						"x": 0,
+						"y": 150,
+						"width": 375,
+						"height": 301
+					}
+				},
+				"children": [
+					{
+						"objectId": "76487D20-AB90-4EF4-A45D-1A26857E11B5",
+						"kind": "group",
+						"name": "Group_3_Copy_2",
+						"originalName": "Group 3 Copy 2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 36,
+							"y": 285,
+							"width": 303,
+							"height": 20
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_3_Copy_2-nzy0odde.png",
+							"frame": {
+								"x": 36,
+								"y": 285,
+								"width": 303,
+								"height": 20
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "F0A97BC4-CE0D-4AE3-A2AB-2EAE5F094D57",
+						"kind": "group",
+						"name": "Group_41",
+						"originalName": "Group 4",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 36,
+							"y": 185,
+							"width": 308,
+							"height": 15
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_4-rjbbotdc.png",
+							"frame": {
+								"x": 36,
+								"y": 185,
+								"width": 308,
+								"height": 15
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "E8E5AD0A-497E-48A4-A84E-64166161BD80",
+						"kind": "group",
+						"name": "Group_3_Copy",
+						"originalName": "Group 3 Copy",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 36,
+							"y": 237,
+							"width": 308,
+							"height": 16
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_3_Copy-rthfnufe.png",
+							"frame": {
+								"x": 36,
+								"y": 237,
+								"width": 308,
+								"height": 16
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "EB82AB8B-A494-42A1-A654-11E921FA2A76",
+						"kind": "group",
+						"name": "Group_33",
+						"originalName": "Group 3",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 36,
+							"y": 340,
+							"width": 307,
+							"height": 17
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_3-rui4mkfc.png",
+							"frame": {
+								"x": 36,
+								"y": 340,
+								"width": 307,
+								"height": 17
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "681565E2-1D2B-4923-AC33-BBA261CA29D6",
+						"kind": "group",
+						"name": "Group_2",
+						"originalName": "Group 2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 20,
+							"y": 387,
+							"width": 335,
+							"height": 54
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_2-njgxnty1.png",
+							"frame": {
+								"x": 20,
+								"y": 387,
+								"width": 335,
+								"height": 54
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "AD298031-A232-47BD-9448-7B9006ECB959",
+				"kind": "group",
+				"name": "map_okay",
+				"originalName": "map_okay",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 140,
+					"y": 65,
+					"width": 215,
+					"height": 376
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-map_okay-quqyotgw.png",
+					"frame": {
+						"x": 140,
+						"y": 65,
+						"width": 215,
+						"height": 376
+					}
+				},
+				"children": [
+					{
+						"objectId": "55B0B513-B9C3-4F3A-BC8D-3C9EA7859408",
+						"kind": "group",
+						"name": "Group_52",
+						"originalName": "Group 5",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 140,
+							"y": 65,
+							"width": 197,
+							"height": 47
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_5-ntvcmei1.png",
+							"frame": {
+								"x": 140,
+								"y": 65,
+								"width": 197,
+								"height": 47
+							}
+						},
+						"children": []
 					}
 				]
 			}
