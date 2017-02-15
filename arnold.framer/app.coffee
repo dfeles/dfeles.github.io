@@ -1,6 +1,14 @@
 # Import file "logo" (sizes and positions are scaled 1:2)
 s = Framer.Importer.load("imported/logo@2x")
 
+default_w = 750
+default_h = 1334
+
+screen_width = Framer.Device.screen.width 
+screen_height = Framer.Device.screen.height
+ratio = screen_width / default_w
+Framer.Device.contentScale = ratio
+
 scroll = new ScrollComponent
 	size: Screen.size
 	scrollHorizontal: false
@@ -56,3 +64,17 @@ s.arno.onClick ->
 	newAns = s.ans7.copy()
 	addMessage(newAns, 0)
 
+
+# Variables
+pageCount = 8
+gutter = 60
+
+# Create PageComponent
+pageScroller = new PageComponent
+	point: Align.center
+	width: Screen.width
+	height: Screen.height
+	scrollVertical: false
+	clip: false
+	
+scroll.parent = pageScroller.content
