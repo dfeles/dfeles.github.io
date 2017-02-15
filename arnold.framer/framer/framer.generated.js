@@ -1209,7 +1209,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 507,
-					"y": 605,
+					"y": 727,
 					"width": 375,
 					"height": 667
 				},
@@ -1221,7 +1221,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-startProgram-nzczrtlg.png",
 					"frame": {
 						"x": 507,
-						"y": 605,
+						"y": 727,
 						"width": 375,
 						"height": 667
 					}
@@ -1235,7 +1235,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 658,
-							"y": 1158,
+							"y": 1280,
 							"width": 74,
 							"height": 14
 						},
@@ -1247,7 +1247,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group-rjy2mjgw.png",
 							"frame": {
 								"x": 658,
-								"y": 1158,
+								"y": 1280,
 								"width": 74,
 								"height": 14
 							}
@@ -1261,7 +1261,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 658,
-									"y": 1158,
+									"y": 1280,
 									"width": 14,
 									"height": 14
 								},
@@ -1273,7 +1273,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"path": "images/Layer-selectedDot-qjremjey.png",
 									"frame": {
 										"x": 658,
-										"y": 1158,
+										"y": 1280,
 										"width": 14,
 										"height": 14
 									}
@@ -1290,7 +1290,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 554,
-							"y": 1218,
+							"y": 1340,
 							"width": 281,
 							"height": 15
 						},
@@ -1307,7 +1307,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 554,
-									"y": 1218,
+									"y": 1340,
 									"width": 76,
 									"height": 15
 								},
@@ -1326,7 +1326,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"path": "images/Layer-cancel-q0y4qtfb.png",
 									"frame": {
 										"x": 554,
-										"y": 1218,
+										"y": 1340,
 										"width": 76,
 										"height": 15
 									}
@@ -1341,7 +1341,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 672,
-									"y": 1218,
+									"y": 1340,
 									"width": 163,
 									"height": 15
 								},
@@ -1360,7 +1360,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"path": "images/Layer-start-qjdeody3.png",
 									"frame": {
 										"x": 672,
-										"y": 1218,
+										"y": 1340,
 										"width": 163,
 										"height": 15
 									}
@@ -1426,6 +1426,79 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"children": []
 			},
 			{
+				"objectId": "951351C2-8D98-4628-B35E-C0CA4469BF95",
+				"kind": "group",
+				"name": "sug_gym_time",
+				"originalName": "sug_gym_time",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 640,
+					"y": 639,
+					"width": 282,
+					"height": 53
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "22FA3EAA-DA8C-4254-B0C2-17C096D131FB",
+						"kind": "group",
+						"name": "sug2",
+						"originalName": "sug2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 787,
+							"y": 639,
+							"width": 135,
+							"height": 53
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-sug2-mjjgqtnf.png",
+							"frame": {
+								"x": 787,
+								"y": 639,
+								"width": 135,
+								"height": 53
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "D98324B4-D9EE-408A-A53C-FB5E318997C1",
+						"kind": "group",
+						"name": "sug1",
+						"originalName": "sug1",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 640,
+							"y": 639,
+							"width": 140,
+							"height": 53
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-sug1-rdk4mzi0.png",
+							"frame": {
+								"x": 640,
+								"y": 639,
+								"width": 140,
+								"height": 53
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
 				"objectId": "0A94D9DE-D51B-438C-8DE0-35021117B00D",
 				"kind": "group",
 				"name": "sug_often",
@@ -1445,7 +1518,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "645F7F66-59DA-41FF-A9E5-044885DB4226",
 						"kind": "group",
-						"name": "sug2",
+						"name": "sug21",
 						"originalName": "sug2",
 						"maskFrame": null,
 						"layerFrame": {
@@ -1472,7 +1545,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "20B8FBC3-C89E-410A-8C4F-702FB275938B",
 						"kind": "group",
-						"name": "sug1",
+						"name": "sug11",
 						"originalName": "sug1",
 						"maskFrame": null,
 						"layerFrame": {
@@ -1518,7 +1591,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "A33BB49B-1D9F-4976-B3D5-71352D9DEA46",
 						"kind": "group",
-						"name": "sug21",
+						"name": "sug22",
 						"originalName": "sug2",
 						"maskFrame": null,
 						"layerFrame": {
@@ -1545,7 +1618,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "D4E65BBC-6B68-40AB-89A6-C84FB77759D6",
 						"kind": "group",
-						"name": "sug11",
+						"name": "sug12",
 						"originalName": "sug1",
 						"maskFrame": null,
 						"layerFrame": {
@@ -1958,10 +2031,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"originalName": "text",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 47,
+					"x": 24,
 					"y": 56,
-					"width": 278,
-					"height": 1161
+					"width": 301,
+					"height": 1233
 				},
 				"visible": true,
 				"metadata": {
@@ -2176,7 +2249,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 136,
-							"y": 1119,
+							"y": 1191,
 							"width": 98,
 							"height": 98
 						},
@@ -2188,9 +2261,36 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-done-mdvdntky.png",
 							"frame": {
 								"x": 136,
-								"y": 1119,
+								"y": 1191,
 								"width": 98,
 								"height": 98
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "52B529D3-697A-444F-84F0-3C9D69969A03",
+						"kind": "group",
+						"name": "ans8",
+						"originalName": "ans8",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 109,
+							"y": 950,
+							"width": 152,
+							"height": 53
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-ans8-ntjcnti5.png",
+							"frame": {
+								"x": 109,
+								"y": 950,
+								"width": 152,
+								"height": 53
 							}
 						},
 						"children": []
@@ -2315,16 +2415,62 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						]
 					},
 					{
-						"objectId": "2FEDAE0A-47DD-485E-8A6E-C8ECBC17CD4A",
+						"objectId": "399252EC-B4C1-4A84-B2C3-6F044AD1BB92",
 						"kind": "group",
-						"name": "coach4",
-						"originalName": "coach4",
+						"name": "coach7",
+						"originalName": "coach7",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 61,
-							"y": 873,
-							"width": 264,
+							"x": 117,
+							"y": 1153,
+							"width": 208,
 							"height": 68
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "FEE5E156-8440-4663-8E54-2AA2FC6D5073",
+								"kind": "group",
+								"name": "text14",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 117,
+									"y": 1153,
+									"width": 208,
+									"height": 68
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-rkvfnuux.png",
+									"frame": {
+										"x": 117,
+										"y": 1153,
+										"width": 208,
+										"height": 68
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "2FEDAE0A-47DD-485E-8A6E-C8ECBC17CD4A",
+						"kind": "group",
+						"name": "coach6",
+						"originalName": "coach6",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 24,
+							"y": 1055,
+							"width": 301,
+							"height": 88
 						},
 						"visible": true,
 						"metadata": {
@@ -2334,14 +2480,14 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							{
 								"objectId": "5D77CD34-30F3-4BBB-8B2A-F938F930417C",
 								"kind": "group",
-								"name": "text14",
+								"name": "text15",
 								"originalName": "text1",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 61,
-									"y": 873,
-									"width": 264,
-									"height": 68
+									"x": 24,
+									"y": 1055,
+									"width": 301,
+									"height": 88
 								},
 								"visible": true,
 								"metadata": {
@@ -2350,10 +2496,83 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-text1-nuq3n0ne.png",
 									"frame": {
-										"x": 61,
-										"y": 873,
-										"width": 264,
-										"height": 68
+										"x": 24,
+										"y": 1055,
+										"width": 301,
+										"height": 88
+									}
+								},
+								"children": []
+							}
+						]
+					},
+					{
+						"objectId": "82ADC5C8-CEF9-4A76-804A-1A4390307323",
+						"kind": "group",
+						"name": "coach4",
+						"originalName": "coach4",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 96,
+							"y": 850,
+							"width": 229,
+							"height": 78
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-coach4-odjbrem1.png",
+							"frame": {
+								"x": 96,
+								"y": 850,
+								"width": 229,
+								"height": 78
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "68928C6E-1821-4830-9204-B87267CEB1F2",
+						"kind": "group",
+						"name": "coach5",
+						"originalName": "coach5",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 222,
+							"y": 1007,
+							"width": 103,
+							"height": 43
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "A2BACCC8-774B-4E69-B6D1-749BDF308B92",
+								"kind": "group",
+								"name": "text16",
+								"originalName": "text1",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 222,
+									"y": 1007,
+									"width": 103,
+									"height": 43
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-text1-qtjcqund.png",
+									"frame": {
+										"x": 222,
+										"y": 1007,
+										"width": 103,
+										"height": 43
 									}
 								},
 								"children": []
@@ -2367,10 +2586,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "coach3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 61,
+							"x": 222,
 							"y": 801,
-							"width": 264,
-							"height": 68
+							"width": 103,
+							"height": 43
 						},
 						"visible": true,
 						"metadata": {
@@ -2380,14 +2599,14 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							{
 								"objectId": "8CA18752-1A69-42F3-8646-47E751E75A23",
 								"kind": "group",
-								"name": "text15",
+								"name": "text17",
 								"originalName": "text1",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 61,
+									"x": 222,
 									"y": 801,
-									"width": 264,
-									"height": 68
+									"width": 103,
+									"height": 43
 								},
 								"visible": true,
 								"metadata": {
@@ -2396,10 +2615,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-text1-oenbmtg3.png",
 									"frame": {
-										"x": 61,
+										"x": 222,
 										"y": 801,
-										"width": 264,
-										"height": 68
+										"width": 103,
+										"height": 43
 									}
 								},
 								"children": []
@@ -2426,7 +2645,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							{
 								"objectId": "F6A73927-0652-4119-B32F-28E9C55E6F57",
 								"kind": "group",
-								"name": "text16",
+								"name": "text18",
 								"originalName": "text1",
 								"maskFrame": null,
 								"layerFrame": {

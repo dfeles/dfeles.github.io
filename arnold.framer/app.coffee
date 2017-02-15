@@ -209,6 +209,7 @@ s.footer.y = screen_height-s.footer.height
 
 s.suggestions.opacity = 0
 messenger.content.height = 10000
+
 addHowOften = () ->
 	s.sug_often.parent = s.footer
 	s.sug_often.opacity = 0
@@ -225,7 +226,21 @@ addHowOften = () ->
 		addMessage(s.coach2,2)
 		addMessage(s.coach3,1)
 		addMessage(s.coach4,1)
-		s.coach4.onClick ->
+		Utils.delay 7, ->
+			s.sug_gym_time.y = 0
+			s.sug_gym_time.x = 100
+			s.sug_gym_time.parent = s.footer
+			show(s.sug_gym_time)
+			_delay = 0
+			addMessage(s.ans8,0)
+			s.sug_gym_time.destroy()
+			
+			addMessage(s.coach5,1)
+			addMessage(s.coach6)
+			addMessage(s.coach7,2)
+		
+		
+		s.coach7.onClick ->
 			s.gym_but.emit 'click'
 			pageScroller.snapToPage(s.goal)
 			
@@ -277,7 +292,8 @@ addMessage(s.text1)
 addMessage(s.text2,1)
 addMessage(s.text3, 2)
 Utils.delay slow(4), ->
-	addSuggestions()
+	#addSuggestions()
+	addHowOften()
 
 
 
