@@ -181,10 +181,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "streetProgress",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 190,
-							"y": 1721,
-							"width": 86,
-							"height": 86
+							"x": 181,
+							"y": 1712,
+							"width": 104,
+							"height": 104
 						},
 						"visible": true,
 						"metadata": {
@@ -193,10 +193,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-streetProgress-mjlbqjze.png",
 							"frame": {
-								"x": 190,
-								"y": 1721,
-								"width": 86,
-								"height": 86
+								"x": 181,
+								"y": 1712,
+								"width": 104,
+								"height": 104
 							}
 						},
 						"children": []
@@ -1361,7 +1361,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"x": 47,
 							"y": 569,
 							"width": 278,
-							"height": 100
+							"height": 84
 						},
 						"visible": true,
 						"metadata": {
@@ -1378,7 +1378,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"x": 47,
 									"y": 569,
 									"width": 278,
-									"height": 100
+									"height": 84
 								},
 								"visible": true,
 								"metadata": {
@@ -1390,7 +1390,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 										"x": 47,
 										"y": 569,
 										"width": 278,
-										"height": 100
+										"height": 84
 									}
 								},
 								"children": []
@@ -2294,15 +2294,6 @@ window.__imported__["logo@2x/layers.json.js"] = [
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(255, 255, 255, 1)",
-		"image": {
-			"path": "images/Layer-signUp-oti0qkzd.png",
-			"frame": {
-				"x": 2490,
-				"y": 676,
-				"width": 375,
-				"height": 667
-			}
-		},
 		"children": [
 			{
 				"objectId": "9969B7DD-78D7-4F37-9C69-5E42D0D1F2FA",
@@ -2311,10 +2302,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"originalName": "aaa",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 52,
-					"y": 256,
-					"width": 272,
-					"height": 274
+					"x": 6,
+					"y": 5,
+					"width": 364,
+					"height": 525
 				},
 				"visible": true,
 				"metadata": {
@@ -2323,10 +2314,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-aaa-otk2oui3.png",
 					"frame": {
-						"x": 52,
-						"y": 256,
-						"width": 272,
-						"height": 274
+						"x": 6,
+						"y": 5,
+						"width": 364,
+						"height": 525
 					}
 				},
 				"children": []

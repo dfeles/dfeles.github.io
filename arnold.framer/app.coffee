@@ -226,7 +226,7 @@ addHowOften = () ->
 		addMessage(s.coach2,2)
 		addMessage(s.coach3,1)
 		addMessage(s.coach4,1)
-		Utils.delay 7, ->
+		Utils.delay slow(8.5), ->
 			s.sug_gym_time.y = 0
 			s.sug_gym_time.x = 100
 			s.sug_gym_time.parent = s.footer
@@ -286,14 +286,17 @@ addSuggestions = () ->
 
 s.avatar.onClick ->
 
-
-
-addMessage(s.text1)
-addMessage(s.text2,1)
-addMessage(s.text3, 2)
-Utils.delay slow(4), ->
-	addSuggestions()
-	
+s.signUp.x = 0
+s.signUp.y = 0
+s.signUp.parent = all
+s.signUp.onClick ->
+	hide(s.signUp)
+	addMessage(s.text1)
+	addMessage(s.text2,2.5)
+	addMessage(s.text3, 2)
+	Utils.delay slow(5), ->
+		addSuggestions()
+		
 
 
 
