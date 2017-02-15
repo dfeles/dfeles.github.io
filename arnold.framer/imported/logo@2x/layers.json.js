@@ -1156,7 +1156,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 47,
 							"y": 184,
-							"width": 206,
+							"width": 266,
 							"height": 40
 						},
 						"visible": true,
@@ -1168,7 +1168,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"frame": {
 								"x": 47,
 								"y": 184,
-								"width": 206,
+								"width": 266,
 								"height": 40
 							}
 						},
@@ -2224,22 +2224,22 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "bacsi",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -359,
-							"y": -31,
-							"width": 1093,
-							"height": 729
+							"x": -41,
+							"y": -4,
+							"width": 444,
+							"height": 697
 						},
-						"visible": true,
+						"visible": false,
 						"metadata": {
 							"opacity": 1
 						},
 						"image": {
 							"path": "images/Layer-bacsi-mze5mzm0.png",
 							"frame": {
-								"x": -359,
-								"y": -31,
-								"width": 1093,
-								"height": 729
+								"x": -41,
+								"y": -4,
+								"width": 444,
+								"height": 697
 							}
 						},
 						"children": []
@@ -2251,10 +2251,10 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"originalName": "Group 2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -395,
+							"x": -66,
 							"y": -27,
-							"width": 1021,
-							"height": 728
+							"width": 493,
+							"height": 715
 						},
 						"visible": true,
 						"metadata": {
@@ -2263,10 +2263,151 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Group_2-qjnfmtm2.png",
 							"frame": {
-								"x": -395,
+								"x": -66,
 								"y": -27,
-								"width": 1021,
-								"height": 728
+								"width": 493,
+								"height": 715
+							}
+						},
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"objectId": "924BFC49-DA65-4C2B-9A91-DBE57A091E9F",
+		"kind": "artboard",
+		"name": "signUp",
+		"originalName": "signUp",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 2490,
+			"y": 676,
+			"width": 375,
+			"height": 667
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"image": {
+			"path": "images/Layer-signUp-oti0qkzd.png",
+			"frame": {
+				"x": 2490,
+				"y": 676,
+				"width": 375,
+				"height": 667
+			}
+		},
+		"children": [
+			{
+				"objectId": "9969B7DD-78D7-4F37-9C69-5E42D0D1F2FA",
+				"kind": "group",
+				"name": "aaa",
+				"originalName": "aaa",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 52,
+					"y": 256,
+					"width": 272,
+					"height": 274
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-aaa-otk2oui3.png",
+					"frame": {
+						"x": 52,
+						"y": 256,
+						"width": 272,
+						"height": 274
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "A5FA8907-A6A7-4D21-A877-FE7A4D5338F4",
+				"kind": "group",
+				"name": "Group4",
+				"originalName": "Group",
+				"maskFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 667
+				},
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 667
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group-qtvgqtg5.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 667
+					}
+				},
+				"children": [
+					{
+						"objectId": "44E70D9A-2161-4A6F-83BB-6DCE826D8386",
+						"kind": "group",
+						"name": "Group_102",
+						"originalName": "Group 10",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 156,
+							"y": 90,
+							"width": 64,
+							"height": 71
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_10-ndrfnzbe.png",
+							"frame": {
+								"x": 156,
+								"y": 90,
+								"width": 64,
+								"height": 71
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "834ACF90-4636-4ED2-B02F-EB81C4BF02B8",
+						"kind": "group",
+						"name": "bacsi1",
+						"originalName": "bacsi",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": -66,
+							"y": -27,
+							"width": 493,
+							"height": 715
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-bacsi-odm0qung.png",
+							"frame": {
+								"x": -66,
+								"y": -27,
+								"width": 493,
+								"height": 715
 							}
 						},
 						"children": []
