@@ -12,14 +12,14 @@ Framer.Defaults.Layer.force2d = true
 
 all = new Layer
 	width: default_w, height: default_h
-	backgroundColor: "white"
+	backgroundColor: "#FFFFFF"
 	scale: ratio
 	originY: 0
 	y: 0
 all.centerX()
 
 scroll = new ScrollComponent
-	size: Screen.size
+	size: all.size
 	scrollHorizontal: false
 	padding: 500
 	
@@ -82,9 +82,8 @@ gutter = 60
 # Create PageComponent
 pageScroller = new PageComponent
 	point: Align.center
-	width: default_w
-	height: default_h
-	scale: ratio
+	width: all.width
+	height: all.height
 	scrollVertical: false
 	clip: false
 	parent: all
