@@ -36,7 +36,7 @@ show = (obj, delay = 0) ->
 
 
 
-slowdown = 1
+slowdown = 1.2
 slow = (ms) ->
 	return ms * slowdown
 Framer.Defaults.Animation =
@@ -232,12 +232,12 @@ addHowOften = () ->
 			s.sug_gym_time.parent = s.footer
 			show(s.sug_gym_time)
 			_delay = 0
-			addMessage(s.ans8,0)
-			s.sug_gym_time.destroy()
-			
-			addMessage(s.coach5,1)
-			addMessage(s.coach6)
-			addMessage(s.coach7,2)
+			s.sug_gym_time.onClick ->
+				addMessage(s.ans8,0)
+				s.sug_gym_time.destroy()
+				addMessage(s.coach5,1)
+				addMessage(s.coach6,1)
+				addMessage(s.coach7,2)
 		
 		
 		s.coach7.onClick ->
@@ -292,8 +292,8 @@ addMessage(s.text1)
 addMessage(s.text2,1)
 addMessage(s.text3, 2)
 Utils.delay slow(4), ->
-	#addSuggestions()
-	addHowOften()
+	addSuggestions()
+	
 
 
 
