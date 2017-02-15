@@ -15,6 +15,27 @@ header = s.header
 sel = s.selector
 buttons = [[s.stats_but,s.stats_active, s.sel_stat], [s.message_but,s.mess_active, s.sel_mes], [s.gym_but,s.gym_but_active, s.sel_gym]]
 
+
+
+##usefull stuff
+
+hide = (obj) ->
+	obj.animate
+		opacity:0
+	obj.onAnimationEnd ->
+		if obj.opacity == 0
+			obj.visible = false
+
+show = (obj, delay = 0) ->
+	obj.opacity = 0
+	obj.visible = true
+	obj.animate
+		opacity:1
+		options:
+			delay: delay
+
+
+
 slowdown = 1
 slow = (ms) ->
 	return ms * slowdown
@@ -250,7 +271,8 @@ addSuggestions = () ->
 
 s.avatar.onClick ->
 
-	
+
+
 addMessage(s.text1)
 addMessage(s.text2,1)
 addMessage(s.text3, 2)
@@ -259,3 +281,64 @@ Utils.delay slow(4), ->
 
 
 
+#### Select program
+s.streetGym.opacity = 0
+s.selectProgram.onClick ->
+	s.startProgram.parent = all
+	s.startProgram.x = 0
+	s.startProgram.y = 0
+	s.startProgram.index = 100
+	show(s.startProgram)
+	programPager = new PageComponent
+		width: all.width
+		height: s.street.height+s.street.y
+		parent: s.startProgram
+		scrollVertical: false
+	programs = [s.street, s.muscle, s.fat, s.cardio]
+	programs.forEach (it) ->
+		programPager.addPage(it)
+	programPager.snapToPage(s.street)
+	
+	origDotX = s.selectedDot.x
+	programPager.on "change:currentPage", ->
+		current = programPager.currentPage
+		i = programPager.horizontalPageIndex(current)
+		s.selectedDot.animate
+			x:origDotX + i*40
+		programs.forEach (it,b) ->
+			if it == current
+				current.animate
+					scale: 1
+					opacity:1
+					rotation: 0
+			else
+				it.animate
+					scale: .8
+					opacity:.8
+					rotation: 3
+	s.cancel.onClick ->
+		hide(s.startProgram)
+	
+	s.streetGym.y = 0
+	s.streetGym.x = 0
+	s.streetGym.parent = s.goal
+	s.start.onClick ->
+		hide(s.startProgram)
+		hide(s.selectProgram)
+		show(s.streetGym, .3)
+		show(s.streetMessage, .8)
+		show(s.streetProgress, 1.5)
+		show(s.timeline, 2)
+		
+	s.timelineCover.opacity = 0
+	timelineScroll = new ScrollComponent
+		size:all.size
+		parent:s.goal
+		backgroundColor: "transparent"
+	timelineScroll.onMove ->
+		delta = timelineScroll.content.y
+		s.timelineCover.opacity = -delta/200
+		
+		if delta > 0
+			s.streetGym.opacity = 1 - delta/100
+	s.timeline.parent = timelineScroll.content
