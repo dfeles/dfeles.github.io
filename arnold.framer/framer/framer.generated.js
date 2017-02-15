@@ -2473,6 +2473,33 @@ window.__imported__["logo@2x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
+				"objectId": "252F4EF4-60A0-42D8-B512-6CBBAD402194",
+				"kind": "group",
+				"name": "Group_10",
+				"originalName": "Group 10",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 20,
+					"y": 306,
+					"width": 61,
+					"height": 87
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group_10-mjuyrjrf.png",
+					"frame": {
+						"x": 20,
+						"y": 306,
+						"width": 61,
+						"height": 87
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "23286409-EA92-4470-B160-30F702ACF3C5",
 				"kind": "group",
 				"name": "Group_6",
@@ -2480,7 +2507,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 188,
+					"y": 680,
 					"width": 375,
 					"height": 93
 				},
@@ -2492,7 +2519,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group_6-mjmyody0.png",
 					"frame": {
 						"x": 0,
-						"y": 188,
+						"y": 680,
 						"width": 375,
 						"height": 93
 					}
@@ -2506,7 +2533,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 122,
-							"y": 216,
+							"y": 708,
 							"width": 202,
 							"height": 41
 						},
@@ -2518,7 +2545,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_7-mzawmend.png",
 							"frame": {
 								"x": 122,
-								"y": 216,
+								"y": 708,
 								"width": 202,
 								"height": 41
 							}
@@ -2538,7 +2565,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						},
 						"layerFrame": {
 							"x": 32,
-							"y": 200,
+							"y": 692,
 							"width": 72,
 							"height": 72
 						},
@@ -2550,12 +2577,104 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group-mzlgq0mx.png",
 							"frame": {
 								"x": 32,
-								"y": 200,
+								"y": 692,
 								"width": 72,
 								"height": 72
 							}
 						},
 						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "A140C71D-383C-4B1F-87B8-F3BF79A70757",
+				"kind": "group",
+				"name": "Group_4_Copy_3",
+				"originalName": "Group 4 Copy 3",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 190,
+					"width": 375,
+					"height": 254
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Group_4_Copy_3-qte0mem3.png",
+					"frame": {
+						"x": 0,
+						"y": 190,
+						"width": 375,
+						"height": 254
+					}
+				},
+				"children": [
+					{
+						"objectId": "68072D8D-5244-415A-B617-C06C82722EFE",
+						"kind": "group",
+						"name": "Group_9",
+						"originalName": "Group 9",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 52,
+							"y": 293,
+							"width": 280,
+							"height": 134
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group_9-njgwnzje.png",
+							"frame": {
+								"x": 52,
+								"y": 293,
+								"width": 280,
+								"height": 134
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "900B3207-7F74-43DF-980A-ACC9E0EA13A3",
+						"kind": "group",
+						"name": "Group_2_Copy",
+						"originalName": "Group 2 Copy",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 42,
+							"y": 240,
+							"width": 247,
+							"height": 89
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"children": [
+							{
+								"objectId": "FD833D0A-BD8A-435D-BD00-09E3045C7D67",
+								"kind": "group",
+								"name": "Group_21",
+								"originalName": "Group 2",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 42,
+									"y": 240,
+									"width": 247,
+									"height": 89
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": []
+							}
+						]
 					}
 				]
 			},
@@ -2567,7 +2686,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 372,
+					"y": 455,
 					"width": 375,
 					"height": 215
 				},
@@ -2579,7 +2698,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group_4_Copy_2-mdm5rtrb.png",
 					"frame": {
 						"x": 0,
-						"y": 372,
+						"y": 455,
 						"width": 375,
 						"height": 215
 					}
@@ -2588,14 +2707,14 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "06801678-935F-4FCD-B188-0609D35C221E",
 						"kind": "group",
-						"name": "Group_2_Copy",
+						"name": "Group_2_Copy1",
 						"originalName": "Group 2 Copy",
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 120,
-							"y": 400,
+							"y": 483,
 							"width": 240,
-							"height": 121
+							"height": 137
 						},
 						"visible": true,
 						"metadata": {
@@ -2605,9 +2724,9 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_2_Copy-mdy4mde2.png",
 							"frame": {
 								"x": 120,
-								"y": 400,
+								"y": 483,
 								"width": 240,
-								"height": 121
+								"height": 137
 							}
 						},
 						"children": []
@@ -2622,7 +2741,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 280,
+					"y": 772,
 					"width": 375,
 					"height": 77
 				},
@@ -2634,7 +2753,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group_4-rjjbnzhf.png",
 					"frame": {
 						"x": 0,
-						"y": 280,
+						"y": 772,
 						"width": 375,
 						"height": 77
 					}
@@ -2830,7 +2949,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "5B92025E-2211-450C-9D17-F7E4F8606FDE",
 						"kind": "group",
-						"name": "Group_10",
+						"name": "Group_101",
 						"originalName": "Group 10",
 						"maskFrame": null,
 						"layerFrame": {
@@ -3080,7 +3199,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					{
 						"objectId": "681565E2-1D2B-4923-AC33-BBA261CA29D6",
 						"kind": "group",
-						"name": "Group_21",
+						"name": "Group_22",
 						"originalName": "Group 2",
 						"maskFrame": null,
 						"layerFrame": {
