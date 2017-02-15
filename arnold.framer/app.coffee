@@ -72,8 +72,8 @@ gutter = 60
 # Create PageComponent
 pageScroller = new PageComponent
 	point: Align.center
-	width: Screen.width
-	height: Screen.height
+	width: screen_width
+	height: screen_height
 	scrollVertical: false
 	clip: false
 	
