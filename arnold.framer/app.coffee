@@ -4,10 +4,22 @@ s = Framer.Importer.load("imported/logo@2x")
 default_w = 750
 default_h = 1334
 
+
 screen_width = Framer.Device.screen.width 
 screen_height = Framer.Device.screen.height
 ratio = screen_width / default_w
 Framer.Device.contentScale = ratio
+Framer.Defaults.Layer.force2d = true
+
+all = new Layer
+	width: default_w
+	height: default_h
+	scale: ratio
+	originY: 0
+	y: 0
+	backgroundColor: "transparent"
+	
+all.centerX() 
 
 scroll = new ScrollComponent
 	size: Screen.size
@@ -77,5 +89,6 @@ pageScroller = new PageComponent
 	scale: ratio
 	scrollVertical: false
 	clip: false
+	parent: all
 	
 scroll.parent = pageScroller.content
