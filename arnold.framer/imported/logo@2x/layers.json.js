@@ -1512,7 +1512,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 129,
+					"y": 188,
 					"width": 375,
 					"height": 93
 				},
@@ -1524,7 +1524,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group_6-mjmyody0.png",
 					"frame": {
 						"x": 0,
-						"y": 129,
+						"y": 188,
 						"width": 375,
 						"height": 93
 					}
@@ -1538,7 +1538,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 122,
-							"y": 157,
+							"y": 216,
 							"width": 202,
 							"height": 41
 						},
@@ -1550,7 +1550,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_7-mzawmend.png",
 							"frame": {
 								"x": 122,
-								"y": 157,
+								"y": 216,
 								"width": 202,
 								"height": 41
 							}
@@ -1570,7 +1570,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						},
 						"layerFrame": {
 							"x": 32,
-							"y": 141,
+							"y": 200,
 							"width": 72,
 							"height": 72
 						},
@@ -1582,7 +1582,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group-mzlgq0mx.png",
 							"frame": {
 								"x": 32,
-								"y": 141,
+								"y": 200,
 								"width": 72,
 								"height": 72
 							}
@@ -1599,7 +1599,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 313,
+					"y": 372,
 					"width": 375,
 					"height": 215
 				},
@@ -1611,7 +1611,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group_4_Copy_2-mdm5rtrb.png",
 					"frame": {
 						"x": 0,
-						"y": 313,
+						"y": 372,
 						"width": 375,
 						"height": 215
 					}
@@ -1625,7 +1625,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 120,
-							"y": 341,
+							"y": 400,
 							"width": 240,
 							"height": 121
 						},
@@ -1637,7 +1637,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_2_Copy-mdy4mde2.png",
 							"frame": {
 								"x": 120,
-								"y": 341,
+								"y": 400,
 								"width": 240,
 								"height": 121
 							}
@@ -1654,7 +1654,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 221,
+					"y": 280,
 					"width": 375,
 					"height": 77
 				},
@@ -1666,7 +1666,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group_4-rjjbnzhf.png",
 					"frame": {
 						"x": 0,
-						"y": 221,
+						"y": 280,
 						"width": 375,
 						"height": 77
 					}
@@ -1681,9 +1681,9 @@ window.__imported__["logo@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": -10,
-					"y": 0,
+					"y": -1,
 					"width": 396,
-					"height": 1408
+					"height": 1401
 				},
 				"visible": true,
 				"metadata": {
@@ -1693,9 +1693,9 @@ window.__imported__["logo@2x/layers.json.js"] = [
 					"path": "images/Layer-Group-qthdmku1.png",
 					"frame": {
 						"x": -10,
-						"y": 0,
+						"y": -1,
 						"width": 396,
-						"height": 1408
+						"height": 1401
 					}
 				},
 				"children": [
@@ -1707,7 +1707,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 322,
-							"y": 42,
+							"y": 101,
 							"width": 36,
 							"height": 45
 						},
@@ -1719,7 +1719,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_8-meeyrjq4.png",
 							"frame": {
 								"x": 322,
-								"y": 42,
+								"y": 101,
 								"width": 36,
 								"height": 45
 							}
@@ -1734,7 +1734,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 18,
-							"y": 384,
+							"y": 443,
 							"width": 300,
 							"height": 638
 						},
@@ -1746,7 +1746,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_5-rtneqkuy.png",
 							"frame": {
 								"x": 18,
-								"y": 384,
+								"y": 443,
 								"width": 300,
 								"height": 638
 							}
@@ -1760,7 +1760,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 19,
-									"y": 431,
+									"y": 490,
 									"width": 33,
 									"height": 420
 								},
@@ -1772,7 +1772,7 @@ window.__imported__["logo@2x/layers.json.js"] = [
 									"path": "images/Layer-Group_3-rjrgqzey.png",
 									"frame": {
 										"x": 19,
-										"y": 431,
+										"y": 490,
 										"width": 33,
 										"height": 420
 									}
