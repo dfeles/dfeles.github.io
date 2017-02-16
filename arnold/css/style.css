@@ -14,7 +14,3 @@
 .center {
     text-align: center;
 }
-.column {
-    display: table-cell;
-    vertical-align: middle;
-}
