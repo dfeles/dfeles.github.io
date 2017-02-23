@@ -14,3 +14,10 @@
 .center {
     text-align: center;
 }
+
+.programs {
+  background-image: url('../images/programs.png');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 77%;
+}
