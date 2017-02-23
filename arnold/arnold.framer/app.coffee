@@ -53,6 +53,7 @@ pageScroller = new PageComponent
 	height: all.height
 	scrollVertical: false
 	backgroundColor: "black"
+	directionLock: true
 	clip:true
 	parent: all
 
@@ -60,6 +61,7 @@ messenger = new ScrollComponent
 	size: all.size
 	scrollHorizontal: false
 	backgroundColor: 'white'
+	directionLock: true
 
 bgLayer = new Layer
 	width: all.width
@@ -71,6 +73,7 @@ stats = new ScrollComponent
 	width: all.width
 	height: all.height
 	scrollHorizontal: false
+	directionLock: true
 	
 messenger.contentInset =
 	top: 100
@@ -314,6 +317,7 @@ s.selectProgram.onClick ->
 		height: s.street.height+s.street.y
 		parent: s.startProgram
 		scrollVertical: false
+		directionLock: true
 	programs = [s.street, s.muscle, s.fat, s.cardio]
 	programs.forEach (it) ->
 		programPager.addPage(it)
@@ -355,6 +359,8 @@ s.selectProgram.onClick ->
 	timelineScroll = new ScrollComponent
 		size:all.size
 		parent:s.goal
+		scrollHorizontal: false
+		directionLock: true
 		backgroundColor: "transparent"
 	timelineScroll.onMove ->
 		delta = timelineScroll.content.y

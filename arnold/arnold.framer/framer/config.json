@@ -4,6 +4,9 @@
   "contentScale" : 1,
   "fullScreen" : false,
   "sharedPrototype" : 0,
+  "propertyPanelToggleStates" : {
+
+  },
   "deviceType" : "apple-iphone-6s-space-gray",
   "projectId" : "AF155F1C-B659-49F0-80E0-F80B62F9EE23",
   "deviceOrientation" : 0,
