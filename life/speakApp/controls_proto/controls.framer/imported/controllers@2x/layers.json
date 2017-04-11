@@ -476,10 +476,123 @@
 				},
 				"children": [
 					{
-						"objectId": "FF420B8D-CD8B-47E6-B970-2E6B88061958",
+						"objectId": "B648E8FA-7E0A-40CE-BE91-100364DDEB19",
 						"kind": "group",
-						"name": "Group_7",
-						"originalName": "Group 7",
+						"name": "play",
+						"originalName": "play",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 178,
+							"y": 126,
+							"width": 20,
+							"height": 24
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-play-qjy0oeu4.png",
+							"frame": {
+								"x": 178,
+								"y": 126,
+								"width": 20,
+								"height": 24
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "C50FE34F-7820-4A29-A8B0-348C680CA8A5",
+						"kind": "group",
+						"name": "avatar",
+						"originalName": "avatar",
+						"maskFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 152,
+							"height": 152
+						},
+						"layerFrame": {
+							"x": 112,
+							"y": 62,
+							"width": 152,
+							"height": 152
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-avatar-qzuwrkuz.png",
+							"frame": {
+								"x": 112,
+								"y": 62,
+								"width": 152,
+								"height": 152
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "96AA3256-897F-4F51-9184-B03D890C02C8",
+						"kind": "group",
+						"name": "bg",
+						"originalName": "bg",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 108,
+							"y": 60,
+							"width": 160,
+							"height": 160
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-bg-otzbqtmy.png",
+							"frame": {
+								"x": 108,
+								"y": 60,
+								"width": 160,
+								"height": 160
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "59EC7EE0-F275-4323-AF36-49937E39B1A7",
+						"kind": "group",
+						"name": "small_aura",
+						"originalName": "small_aura",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 95,
+							"y": 46,
+							"width": 186,
+							"height": 186
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-small_aura-ntlfqzdf.png",
+							"frame": {
+								"x": 95,
+								"y": 46,
+								"width": 186,
+								"height": 186
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "F268C0C6-97A5-4B59-91BE-B7F02297BAAF",
+						"kind": "group",
+						"name": "big_aura",
+						"originalName": "big_aura",
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 69,
@@ -492,7 +605,7 @@
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-Group_7-rky0mjbc.png",
+							"path": "images/Layer-big_aura-rji2oemw.png",
 							"frame": {
 								"x": 69,
 								"y": 20,
@@ -500,42 +613,36 @@
 								"height": 237
 							}
 						},
-						"children": [
-							{
-								"objectId": "C50FE34F-7820-4A29-A8B0-348C680CA8A5",
-								"kind": "group",
-								"name": "avatar",
-								"originalName": "avatar",
-								"maskFrame": {
-									"x": 0,
-									"y": 0,
-									"width": 152,
-									"height": 152
-								},
-								"layerFrame": {
-									"x": 108,
-									"y": 60,
-									"width": 160,
-									"height": 160
-								},
-								"visible": true,
-								"metadata": {
-									"opacity": 1
-								},
-								"image": {
-									"path": "images/Layer-avatar-qzuwrkuz.png",
-									"frame": {
-										"x": 108,
-										"y": 60,
-										"width": 160,
-										"height": 160
-									}
-								},
-								"children": []
-							}
-						]
+						"children": []
 					}
 				]
+			},
+			{
+				"objectId": "EDF2DD15-F185-4D31-B939-37460C0FB20C",
+				"kind": "group",
+				"name": "backgroundHeader",
+				"originalName": "backgroundHeader",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 317
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-backgroundHeader-rurgmkre.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 317
+					}
+				},
+				"children": []
 			}
 		]
 	},
