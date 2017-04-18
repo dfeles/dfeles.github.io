@@ -3108,6 +3108,69 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 										"children": []
 									}
 								]
+							},
+							{
+								"objectId": "73072375-8758-4CB0-81DD-B5CE4F3D041D",
+								"kind": "group",
+								"name": "sendTo",
+								"originalName": "sendTo",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 38,
+									"y": 49,
+									"width": 288,
+									"height": 260
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-sendTo-nzmwnziz.png",
+									"frame": {
+										"x": 38,
+										"y": 49,
+										"width": 288,
+										"height": 260
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "56099C17-8012-48D8-A198-9B41469600A7",
+								"kind": "group",
+								"name": "check_copy",
+								"originalName": "check copy",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 312,
+									"y": 164,
+									"width": 14,
+									"height": 15
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": []
+							},
+							{
+								"objectId": "EA43CD34-610F-4FFD-8E69-53E449E3BF2E",
+								"kind": "group",
+								"name": "check",
+								"originalName": "check",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 312,
+									"y": 105,
+									"width": 14,
+									"height": 15
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"children": []
 							}
 						]
 					},

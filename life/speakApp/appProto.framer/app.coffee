@@ -51,6 +51,10 @@ s.recordBtn.onClick ->
 			scale:1
 		time: .3
 s.recording.onClick ->
+	if root.currentPage.name == "contactList"
+		s.sendTo.visible = true
+	else
+		s.sendTo.visible = false
 	s.recordingBg.animate
 		properties:
 			opacity:0

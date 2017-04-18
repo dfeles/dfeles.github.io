@@ -1,8 +1,8 @@
 {
   "orientation" : 0,
   "updateDelay" : 0.3,
-  "fullScreen" : false,
   "contentScale" : 1,
+  "fullScreen" : false,
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
     "Filters" : false
