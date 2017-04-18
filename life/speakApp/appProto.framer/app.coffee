@@ -2,14 +2,11 @@
 
 screen_width = Framer.Device.screen.width
 screen_height = Framer.Device.screen.height
-
 default_w = 750
 default_h = 1334
-
 ratio = screen_width / default_w
-
 Framer.Device.contentScale = ratio
-
+Framer.Extras.Hints.disable()
 
 s = Framer.Importer.load("imported/currentUX@2x")
 s.statusBar.parent = null
