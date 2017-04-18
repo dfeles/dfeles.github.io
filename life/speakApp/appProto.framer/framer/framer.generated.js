@@ -3221,7 +3221,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-onb1-odbcnzy3.jpg",
+							"path": "images/Layer-onb1-odbcnzy3.png",
 							"frame": {
 								"x": 0,
 								"y": 767,
@@ -3267,7 +3267,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-onb2-qzneruq0.jpg",
+							"path": "images/Layer-onb2-qzneruq0.png",
 							"frame": {
 								"x": 391,
 								"y": 767,
@@ -3313,7 +3313,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-onb3-rdkwnznf.jpg",
+							"path": "images/Layer-onb3-rdkwnznf.png",
 							"frame": {
 								"x": 810,
 								"y": 767,
@@ -3603,9 +3603,9 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-7-black","contentScale":1,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":-1,"selectedHand":"","deviceType":"apple-iphone-7-black","contentScale":1,"orientation":0};
 }
-if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-7-black","contentScale":1,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"selectedHand":"","deviceType":"apple-iphone-7-black","contentScale":1,"orientation":0};
 }
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"appProto.framer"};
 

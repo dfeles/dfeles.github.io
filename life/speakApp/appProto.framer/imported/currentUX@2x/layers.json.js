@@ -3217,7 +3217,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-onb1-odbcnzy3.jpg",
+							"path": "images/Layer-onb1-odbcnzy3.png",
 							"frame": {
 								"x": 0,
 								"y": 767,
@@ -3263,7 +3263,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-onb2-qzneruq0.jpg",
+							"path": "images/Layer-onb2-qzneruq0.png",
 							"frame": {
 								"x": 391,
 								"y": 767,
@@ -3309,7 +3309,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"opacity": 1
 						},
 						"image": {
-							"path": "images/Layer-onb3-rdkwnznf.jpg",
+							"path": "images/Layer-onb3-rdkwnznf.png",
 							"frame": {
 								"x": 810,
 								"y": 767,
