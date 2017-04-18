@@ -32,7 +32,7 @@ root.addPage(message)
 
 s.CTA.parent = root
 s.CTA.index = root.index
-#s.CTA.visible = false
+s.CTA.visible = false
 
 s.recordingBg.opacity = 0
 s.recording.scale = 0
@@ -99,7 +99,7 @@ onboarding.onClick ->
 	if next == undefined
 		s.CTA.visible = true
 		onboarding.states.switch("hide")
-onboarding.visible = false
+#onboarding.visible = false
 
 
 ##settings

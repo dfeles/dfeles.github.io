@@ -7,12 +7,12 @@
   "propertyPanelToggleStates" : {
     "Filters" : false
   },
-  "deviceType" : "custom",
+  "deviceType" : "apple-iphone-7-black",
   "projectId" : "58F3FC98-55A3-4011-BCE0-ACC8B71F0380",
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "foldedCodeRanges" : [
 
   ],
-  "deviceScale" : 1
+  "deviceScale" : "fit"
 }
