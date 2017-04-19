@@ -914,7 +914,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 32,
-					"y": 299,
+					"y": 334,
 					"width": 316,
 					"height": 45
 				},
@@ -931,7 +931,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 32,
-							"y": 311,
+							"y": 346,
 							"width": 24,
 							"height": 22
 						},
@@ -943,7 +943,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_3-qziwrtc2.png",
 							"frame": {
 								"x": 32,
-								"y": 311,
+								"y": 346,
 								"width": 24,
 								"height": 22
 							}
@@ -958,7 +958,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 320,
-							"y": 311,
+							"y": 346,
 							"width": 28,
 							"height": 21
 						},
@@ -970,7 +970,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"path": "images/Layer-Group_4-odndntgy.png",
 							"frame": {
 								"x": 320,
-								"y": 311,
+								"y": 346,
 								"width": 28,
 								"height": 21
 							}
@@ -985,7 +985,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 94,
-							"y": 299,
+							"y": 334,
 							"width": 188,
 							"height": 45
 						},
@@ -1002,7 +1002,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 237,
-									"y": 299,
+									"y": 334,
 									"width": 45,
 									"height": 45
 								},
@@ -1014,7 +1014,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 									"path": "images/Layer-controllerNext-nzvfqtmy.png",
 									"frame": {
 										"x": 237,
-										"y": 299,
+										"y": 334,
 										"width": 45,
 										"height": 45
 									}
@@ -1029,7 +1029,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 94,
-									"y": 299,
+									"y": 334,
 									"width": 45,
 									"height": 45
 								},
@@ -1041,7 +1041,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 									"path": "images/Layer-controllerPrev-oty5rdfb.png",
 									"frame": {
 										"x": 94,
-										"y": 299,
+										"y": 334,
 										"width": 45,
 										"height": 45
 									}
@@ -1056,7 +1056,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 165,
-									"y": 299,
+									"y": 334,
 									"width": 45,
 									"height": 45
 								},
@@ -1068,7 +1068,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 									"path": "images/Layer-controllerPause-nze1mjq0.png",
 									"frame": {
 										"x": 165,
-										"y": 299,
+										"y": 334,
 										"width": 45,
 										"height": 45
 									}
@@ -1083,7 +1083,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 162,
-									"y": 299,
+									"y": 334,
 									"width": 45,
 									"height": 45
 								},
@@ -1095,7 +1095,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 									"path": "images/Layer-controllerPlay-rdayqtzc.png",
 									"frame": {
 										"x": 162,
-										"y": 299,
+										"y": 334,
 										"width": 45,
 										"height": 45
 									}
