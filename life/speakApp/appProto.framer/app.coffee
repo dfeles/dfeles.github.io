@@ -9,7 +9,7 @@ Framer.Device.contentScale = ratio
 Framer.Extras.Hints.disable()
 
 s = Framer.Importer.load("imported/currentUX@2x")
-#s.statusBar.parent = null
+s.statusBar.visible = false
 
 
 contacts = s.contactList
