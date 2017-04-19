@@ -27,9 +27,27 @@ root.content.draggable = false
 root.addPage(contacts)
 root.addPage(message)
 
+
+#send message
+s.messageSent.parent = root
+s.messageSent.animationOptions = time:.3
+s.messageSent.states = 
+	show:
+		y:s.messageSent.y
+		opacity: 1
+		scale: 1
+	hide:
+		y: screen_height
+		opacity: 0
+		scale: .5
+	hide2:
+		y:s.messageSent.y - 100
+		opacity: 0
+		scale: .3
+s.messageSent.states.switchInstant("hide")
+
 s.CTA.parent = root
 s.CTA.index = root.index
-s.CTA.visible = false
 
 s.recordingBg.opacity = 0
 s.recording.scale = 0
@@ -42,7 +60,7 @@ s.recordBtn.onClick ->
 	s.recordingBg.animate
 		properties:
 			opacity:1
-		time:2
+		time:.6
 	s.recording.animate
 		properties:
 			scale:1
@@ -55,14 +73,14 @@ s.recording.onClick ->
 	s.recordingBg.animate
 		properties:
 			opacity:0
-		time: 2
+		time: .6
 	s.recording.animate
 		properties:
 			scale:0
 	s.sendBg.animate
 		properties:
 			opacity:1
-		time:1
+		time:.6
 	s.send.animate
 		properties:
 			scale:1
@@ -77,8 +95,15 @@ s.send.onClick ->
 	s.recordBtn.animate
 		properties:
 			scale:1
+		time:.3
+	s.messageSent.states.switchInstant("hide")
+	s.messageSent.states.switch("show")
+	Utils.delay 2, ->
+		s.messageSent.states.switch("hide2")
+	
 
 
+##onbaording
 onboarding = new PageComponent
 	width: s.messenger.width
 	height: s.messenger.height
@@ -86,6 +111,9 @@ onboarding = new PageComponent
 	clip: false
 	index: 1
 	ignoreEvents: true
+	visible: false
+root.snapToNextPage("right", true)
+
 onboarding.states = 
 	hide:
 		x:-s.onb1.width
@@ -101,6 +129,7 @@ onboarding.onClick ->
 		s.CTA.visible = true
 		onboarding.states.switch("hide")
 #onboarding.visible = false
+
 
 
 ##settings
@@ -182,9 +211,17 @@ switchVoice = () ->
 	s.voiceClose.states.switch(close)
 s.voiceClose.onClick -> switchVoice()
 s.voiceOpen.onClick -> switchVoice()
-	
+
+
+##contact
+
+contactList = ScrollComponent.wrap(s.contacts)
+contactList.content.draggable.horizontal = false
+
+
+
 ## WAVES
-maxWaveH = 0.01
+maxWaveH = 0.001
 startDance = (layer) ->
 	layer.animationOptions = 
 		curve: "linear",
@@ -200,12 +237,200 @@ waves = s.soundWave.subLayers
 for wave in waves
 	startDance(wave)
 s.controllerPause.visible = false
-s.controllerPlay.onClick ->
+
+s.loader.originX = 0
+s.loader.scaleX = 0
+s.controllerPlay.on 'click', ->
 	maxWaveH = 1.5
 	s.controllerPause.visible = true
 	s.controllerPlay.visible = false
-s.controllerPause.onClick ->
-	maxWaveH = 0.01
+	s.loader.animate
+		properties:
+			scaleX:1
+		time: 5
+	Utils.delay 5, ->
+		s.controllerPause.emit "click"
+		s.loader.animate
+			properties:
+				scaleX:0
+			time: .3
+s.controllerPause.on 'click', ->
+	s.loader.animateStop()
+	maxWaveH = 0.001
 	s.controllerPause.visible = false
 	s.controllerPlay.visible = true
+
+
+#baszok
+
+s.isTalking.parent = root
+s.isTalking.states =
+	hide:
+		scale: 0
+		opacity: 0
+	show:
+		scale: 1
+		opacity: 1
+s.isTalking.states.switchInstant("hide")
+
+actIndex = 5
+timeline = new ScrollComponent
+	y:s.baszok.y - 15
+	height: 80
+	width: screen_width
+	backgroundColor: "transparent"
+	contentInset: 
+		right:200
+		left: 10
+timeline.content.draggable.vertical = false
+
+switchSong = (right) ->
+	if right
+		s.controllerPause.emit "click"
+		s.timestamp.states.switch("swipeLeft")
+		Utils.delay .3, ->
+			s.controllerPlay.emit "click"
+			s.timestamp.states.switchInstant("swipeRight")
+			s.timestamp.states.switch("center")
+	else
+		s.controllerPause.emit "click"
+		s.timestamp.states.switch("swipeRight")
+		Utils.delay .3, ->
+			s.controllerPlay.emit "click"
+			s.timestamp.states.switchInstant("swipeLeft")
+			s.timestamp.states.switch("center")
+
+timeline.parent = message
+baszStates = 
+	opened:
+		originX:0
+		width:200
+		saturate: 100
+		opacity: 1
+	closed:
+		originX:0
+		width:70
+		saturate: 0
+		opacity: .3
+	new:
+		originX:0
+		width:70
+		saturate: 0
+		opacity: 1
+
+adjustBaszok = () ->
+	for basz in baszok
+		if lastBasz == undefined
+			lastBasz = basz
+		else
+			basz.x = lastBasz.maxX + 10
+			lastBasz = basz
+	timeline.updateContent()
+
+addNew = () ->
+	s.isTalking.states.switch("show")
+	Utils.delay 3, ->
+		s.isTalking.states.switch("hide")
+		createBasz("new")
+
+selectBaszIndex = (index) ->
+	selectBasz(baszok[index])
+	if index >= baszok.length-1
+		s.controllerNext.opacity = .5
+		Utils.delay 4, -> addNew()
+	else
+		s.controllerNext.opacity = 1
+	if index <= 0
+		s.controllerPrev.opacity = .5
+	else
+		s.controllerPrev.opacity = 1
 	
+selectBasz = (layer) ->
+	timeline.scrollToLayer(layer, 0.5, 0)
+	layer.isRead = true
+	for basz in baszok
+		state = "closed"
+		if basz == layer
+			state = "opened"
+		else if !basz.isRead
+			state = "new"
+		basz.states.switch(state)
+				
+	
+baszok = []
+createBasz = (state) ->
+	basz2 = new Layer
+		backgroundColor: "#006ECB"
+		borderRadius: 40
+		height: 20
+		clip:false
+		y: 15
+	lastItem = baszok[..].pop()
+	basz2.parent = timeline.content
+	basz2.states = baszStates
+	basz2.states.switchInstant(state)
+	basz2.isRead = state != "new"
+	if lastItem != undefined
+		basz2.x = lastItem.x + lastItem.width + 10
+	toX = basz2.x
+	basz2.x += 100
+	basz2.opacity = 0
+	basz2.animate
+		properties:
+			opacity: 1
+			x:toX
+	basz2.onClick ->
+		if actIndex != basz2.index
+			switchSong(actIndex < basz2.index)
+			actIndex = basz2.index
+			selectBasz(basz2)
+	basz2.on "change:width", ->
+		if basz2.states.current.name == "opened"
+			adjustBaszok()
+	adjustBaszok()
+	if !basz2.isRead
+		text = new Layer
+			html: "<b>NEW</b>"
+			superLayer: basz2
+			y: 22
+			opacity: 0
+			backgroundColor: "transparent"
+		text.style["color"] = "#333333"
+		text.animate properties: opacity: 1
+		Utils.delay 3, ->
+			text.animate properties: opacity: 0
+
+	adjustBaszok()
+	baszok = timeline.content.subLayers
+	
+for i in [1..7]
+	if i == 7
+		createBasz("new")
+		selectBaszIndex(actIndex)
+	else
+		createBasz("closed")
+
+s.timestamp.animationOptions = time:.3
+s.timestamp.states =
+	swipeRight:
+		x:screen_width
+	swipeLeft:
+		x:-s.timestamp.width
+	center:
+		x:s.timestamp.x
+
+s.controllerNext.onClick ->
+	if actIndex+1 < baszok.length
+		actIndex++
+		selectBaszIndex(actIndex)
+		switchSong(true)
+s.controllerPrev.onClick ->
+	if actIndex-1 >= 0
+		actIndex--
+		selectBaszIndex(actIndex)
+		switchSong(false)
+		
+#add new message if message sent
+s.messageSent.onAnimationEnd ->
+	if s.messageSent.opacity == 0
+		Utils.delay 1, -> addNew()
