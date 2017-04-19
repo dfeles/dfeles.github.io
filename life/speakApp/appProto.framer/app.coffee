@@ -111,8 +111,8 @@ onboarding = new PageComponent
 	clip: false
 	index: 1
 	ignoreEvents: true
-	visible: false
-root.snapToNextPage("right", true)
+#	visible: false
+#root.snapToNextPage("right", true)
 
 onboarding.states = 
 	hide:
