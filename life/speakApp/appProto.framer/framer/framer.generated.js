@@ -3257,7 +3257,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 					"x": -1,
 					"y": -1,
 					"width": 377,
-					"height": 700
+					"height": 669
 				},
 				"visible": true,
 				"metadata": {
@@ -3605,7 +3605,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 							"x": -1,
 							"y": -1,
 							"width": 377,
-							"height": 700
+							"height": 669
 						},
 						"visible": true,
 						"metadata": {
@@ -3617,7 +3617,7 @@ window.__imported__["currentUX@2x/layers.json.js"] = [
 								"x": -1,
 								"y": -1,
 								"width": 377,
-								"height": 700
+								"height": 669
 							}
 						},
 						"children": [

@@ -53,6 +53,26 @@ s.recordingBg.opacity = 0
 s.recording.scale = 0
 s.send.scale = 0
 s.sendBg.opacity = 0
+
+
+maxWaveH2 = 1.5
+startDance2 = (layer) ->
+	layer.animationOptions = 
+		curve: "linear",
+		time: .2
+	layer.animate
+		scaleY:Utils.randomNumber(0,maxWaveH2)
+	layer.onAnimationEnd ->
+		number = Utils.randomNumber(0,maxWaveH2*(layer.index-30)/20)
+		layer.animate
+			scaleY:number
+
+secondWaves = s.soundWave.copy()
+secondWaves.parent = s.recordingBg
+secondWaves.y = screen_height - secondWaves.height/2
+for wave in secondWaves.subLayers
+	startDance2(wave)
+
 s.recordBtn.onClick ->
 	s.recordBtn.animate
 		properties:
@@ -263,7 +283,7 @@ s.controllerPause.on 'click', ->
 
 #baszok
 
-s.isTalking.parent = root
+s.isTalking.parent = s.messenger
 s.isTalking.states =
 	hide:
 		scale: 0
