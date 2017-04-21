@@ -131,8 +131,6 @@ onboarding = new PageComponent
 	clip: false
 	index: 1
 	ignoreEvents: true
-#	visible: false
-#root.snapToNextPage("right", true)
 
 onboarding.states = 
 	hide:
@@ -148,7 +146,6 @@ onboarding.onClick ->
 	if next == undefined
 		s.CTA.visible = true
 		onboarding.states.switch("hide")
-#onboarding.visible = false
 
 
 
@@ -239,46 +236,6 @@ contactList = ScrollComponent.wrap(s.contacts)
 contactList.content.draggable.horizontal = false
 
 
-
-## WAVES
-maxWaveH = 0.001
-startDance = (layer) ->
-	layer.animationOptions = 
-		curve: "linear",
-		time: .2
-	layer.animate
-		scaleY:Utils.randomNumber(0,maxWaveH)
-	layer.onAnimationEnd ->
-		number = Utils.randomNumber(0,maxWaveH*(layer.index-30)/20)
-		layer.animate
-			scaleY:number
-
-waves = s.soundWave.subLayers
-for wave in waves
-	startDance(wave)
-s.controllerPause.visible = false
-
-s.loader.originX = 0
-s.loader.scaleX = 0
-s.controllerPlay.on 'click', ->
-	maxWaveH = 1.5
-	s.controllerPause.visible = true
-	s.controllerPlay.visible = false
-	s.loader.animate
-		properties:
-			scaleX:1
-		time: 5
-	Utils.delay 5, ->
-		s.controllerPause.emit "click"
-		s.loader.animate
-			properties:
-				scaleX:0
-			time: .3
-s.controllerPause.on 'click', ->
-	s.loader.animateStop()
-	maxWaveH = 0.001
-	s.controllerPause.visible = false
-	s.controllerPlay.visible = true
 
 
 #baszok
@@ -455,7 +412,8 @@ s.messageSent.onAnimationEnd ->
 	if s.messageSent.opacity == 0
 		Utils.delay 1, -> addNew()
 
+
 testing = () ->
 	root.snapToNextPage("right", false)
 	onboarding.visible = false
-#testing()
+testing()
