@@ -216,7 +216,7 @@ voiceState =
 		scale: 1
 	close:
 		scale: 0
-		originY: 1
+		originY: 0.3
 s.voiceOpen.states = voiceState
 s.voiceOpen.animationOptions = time:.3
 s.voiceClose.states = voiceState
@@ -260,7 +260,13 @@ s.controllerPause.visible = false
 
 s.loader.originX = 0
 s.loader.scaleX = 0
+
+audio1 = new Audio('images/likepeople1.mp3')
+audio2 = new Audio('images/likepeople2.mp3')
+currentAudio = audio1
+
 s.controllerPlay.on 'click', ->
+	currentAudio.play()
 	maxWaveH = 1.5
 	s.controllerPause.visible = true
 	s.controllerPlay.visible = false
@@ -268,20 +274,21 @@ s.controllerPlay.on 'click', ->
 		properties:
 			scaleX:1
 		time: 5
-	Utils.delay 5, ->
-		s.controllerPause.emit "click"
-		s.loader.animate
-			properties:
-				scaleX:0
-			time: .3
+s.loader.onAnimationEnd ->
+	s.controllerPause.emit "click"
+	s.loader.animate
+		properties:
+			scaleX:0
+		time: .3
 s.controllerPause.on 'click', ->
+	currentAudio.pause()
 	s.loader.animateStop()
 	maxWaveH = 0.001
 	s.controllerPause.visible = false
 	s.controllerPlay.visible = true
 
 
-#baszok
+#PLAYER
 
 s.isTalking.parent = s.messenger
 s.isTalking.states =
@@ -303,12 +310,22 @@ timeline = new ScrollComponent
 		right:200
 		left: 10
 timeline.content.draggable.vertical = false
-
+s.text2.visible = false
+switchText = () ->
+	s.text1.visible = s.text2.visible
+	s.text2.visible = !s.text2.visible
 switchSong = (right) ->
+	audio1.stop()
+	audio2.stop()
+	if(currentAudio == audio1)
+		currentAudio = audio2
+	else
+		currentAudio = audio1
 	if right
 		s.controllerPause.emit "click"
 		s.timestamp.states.switch("swipeLeft")
 		Utils.delay .3, ->
+			switchText()
 			s.controllerPlay.emit "click"
 			s.timestamp.states.switchInstant("swipeRight")
 			s.timestamp.states.switch("center")
@@ -316,6 +333,7 @@ switchSong = (right) ->
 		s.controllerPause.emit "click"
 		s.timestamp.states.switch("swipeRight")
 		Utils.delay .3, ->
+			switchText()
 			s.controllerPlay.emit "click"
 			s.timestamp.states.switchInstant("swipeLeft")
 			s.timestamp.states.switch("center")
@@ -440,16 +458,17 @@ s.timestamp.states =
 		x:s.timestamp.x
 
 s.controllerNext.onClick ->
+	s.loader.scaleX = 0
 	if actIndex+1 < baszok.length
 		actIndex++
 		selectBaszIndex(actIndex)
 		switchSong(true)
 s.controllerPrev.onClick ->
+	s.loader.scaleX = 0
 	if actIndex-1 >= 0
 		actIndex--
 		selectBaszIndex(actIndex)
 		switchSong(false)
-		
 #add new message if message sent
 s.messageSent.onAnimationEnd ->
 	if s.messageSent.opacity == 0
@@ -458,4 +477,4 @@ s.messageSent.onAnimationEnd ->
 testing = () ->
 	root.snapToNextPage("right", false)
 	onboarding.visible = false
-#testing()
+testing()

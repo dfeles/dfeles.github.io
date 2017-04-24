@@ -786,20 +786,29 @@
 				"children": []
 			},
 			{
-				"objectId": "2834254B-C1E7-483B-A57A-5F3949E52EF3",
+				"objectId": "28148F5F-7823-47D9-B1B6-DE439CDE49C6",
 				"kind": "group",
 				"name": "timestamp",
 				"originalName": "timestamp",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 70,
-					"y": 138,
-					"width": 236,
-					"height": 118
+					"x": 30,
+					"y": 209,
+					"width": 309,
+					"height": 342
 				},
 				"visible": true,
 				"metadata": {
 					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-timestamp-mjgxndhg.png",
+					"frame": {
+						"x": 30,
+						"y": 209,
+						"width": 309,
+						"height": 342
+					}
 				},
 				"children": [
 					{
@@ -809,65 +818,156 @@
 						"originalName": "voiceOpen",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 70,
-							"y": 138,
-							"width": 236,
-							"height": 118
+							"x": 30,
+							"y": 376,
+							"width": 309,
+							"height": 175
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
-						"image": {
-							"path": "images/Layer-voiceOpen-rduwodgz.png",
-							"frame": {
-								"x": 70,
-								"y": 138,
-								"width": 236,
-								"height": 118
-							}
-						},
 						"children": [
 							{
-								"objectId": "4668EB2F-F9DF-4FF6-BD61-A7164E9BB862",
+								"objectId": "F7D14323-472D-46C1-AD9F-646D83DE5524",
 								"kind": "group",
-								"name": "circle_with_cross",
-								"originalName": "circle-with-cross",
+								"name": "Group_61",
+								"originalName": "Group 6",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 80,
-									"y": 150,
-									"width": 147,
-									"height": 17
+									"x": 30,
+									"y": 376,
+									"width": 309,
+									"height": 175
 								},
 								"visible": true,
 								"metadata": {
 									"opacity": 1
 								},
+								"image": {
+									"path": "images/Layer-Group_6-rjdemtqz.png",
+									"frame": {
+										"x": 30,
+										"y": 376,
+										"width": 309,
+										"height": 175
+									}
+								},
 								"children": [
 									{
-										"objectId": "A632E1EE-2C84-4AB4-BB7A-15E9D152D9EF",
+										"objectId": "4668EB2F-F9DF-4FF6-BD61-A7164E9BB862",
 										"kind": "group",
-										"name": "Group_9",
-										"originalName": "Group 9",
+										"name": "circle_with_cross",
+										"originalName": "circle-with-cross",
 										"maskFrame": null,
 										"layerFrame": {
-											"x": 80,
-											"y": 150,
-											"width": 147,
+											"x": 105,
+											"y": 418,
+											"width": 152,
 											"height": 17
 										},
 										"visible": true,
 										"metadata": {
 											"opacity": 1
 										},
+										"children": [
+											{
+												"objectId": "A632E1EE-2C84-4AB4-BB7A-15E9D152D9EF",
+												"kind": "group",
+												"name": "Group_9",
+												"originalName": "Group 9",
+												"maskFrame": null,
+												"layerFrame": {
+													"x": 105,
+													"y": 418,
+													"width": 152,
+													"height": 17
+												},
+												"visible": true,
+												"metadata": {
+													"opacity": 1
+												},
+												"image": {
+													"path": "images/Layer-Group_9-qtyzmkux.png",
+													"frame": {
+														"x": 105,
+														"y": 418,
+														"width": 152,
+														"height": 17
+													}
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"objectId": "96B05AF7-728A-4E43-9FD9-CAB8A0E96B34",
+										"kind": "text",
+										"name": "text1",
+										"originalName": "text1",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 83,
+											"y": 464,
+											"width": 184,
+											"height": 33
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "You know some places are like people.",
+											"css": [
+												"/* You know some places: */",
+												"opacity: 0.86;",
+												"font-family: SFUIText-Regular;",
+												"font-size: 15px;",
+												"color: rgba(0,0,0,0.80);",
+												"letter-spacing: -0.1px;"
+											]
+										},
 										"image": {
-											"path": "images/Layer-Group_9-qtyzmkux.png",
+											"path": "images/Layer-text1-otzcmdvb.png",
 											"frame": {
-												"x": 80,
-												"y": 150,
-												"width": 147,
-												"height": 17
+												"x": 83,
+												"y": 464,
+												"width": 184,
+												"height": 33
+											}
+										},
+										"children": []
+									},
+									{
+										"objectId": "8ADDD468-8025-4226-903F-B0A60ABE5EAE",
+										"kind": "text",
+										"name": "text2",
+										"originalName": "text2",
+										"maskFrame": null,
+										"layerFrame": {
+											"x": 83,
+											"y": 464,
+											"width": 159,
+											"height": 31
+										},
+										"visible": true,
+										"metadata": {
+											"opacity": 1,
+											"string": "Some shine. And some\ndon’t",
+											"css": [
+												"/* Some shine. And some: */",
+												"opacity: 0.86;",
+												"font-family: SFUIText-Regular;",
+												"font-size: 15px;",
+												"color: rgba(0,0,0,0.80);",
+												"letter-spacing: -0.1px;"
+											]
+										},
+										"image": {
+											"path": "images/Layer-text2-oefereq0.png",
+											"frame": {
+												"x": 83,
+												"y": 464,
+												"width": 159,
+												"height": 31
 											}
 										},
 										"children": []
@@ -875,35 +975,35 @@
 								]
 							}
 						]
-					},
-					{
-						"objectId": "00F85983-2CD3-45FA-AFD7-A0334FC0A0C6",
-						"kind": "group",
-						"name": "voiceClose",
-						"originalName": "voiceClose",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 105,
-							"y": 219,
-							"width": 165,
-							"height": 37
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-voiceClose-mdbgodu5.png",
-							"frame": {
-								"x": 105,
-								"y": 219,
-								"width": 165,
-								"height": 37
-							}
-						},
-						"children": []
 					}
 				]
+			},
+			{
+				"objectId": "00F85983-2CD3-45FA-AFD7-A0334FC0A0C6",
+				"kind": "group",
+				"name": "voiceClose",
+				"originalName": "voiceClose",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 107,
+					"y": 419,
+					"width": 161,
+					"height": 15
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-voiceClose-mdbgodu5.png",
+					"frame": {
+						"x": 107,
+						"y": 419,
+						"width": 161,
+						"height": 15
+					}
+				},
+				"children": []
 			},
 			{
 				"objectId": "50DFB8FD-40E2-49E0-8834-B3051E8FACDE",
@@ -1561,7 +1661,7 @@
 									{
 										"objectId": "E625C18B-9EC0-4516-B6E1-98C21F07408E",
 										"kind": "group",
-										"name": "Group_61",
+										"name": "Group_611",
 										"originalName": "Group 61",
 										"maskFrame": null,
 										"layerFrame": {
